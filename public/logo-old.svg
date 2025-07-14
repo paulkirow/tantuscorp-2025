@@ -1,0 +1,24 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="15.87 5.68 291.52 118.35">
+    <defs>
+        <linearGradient id="a">
+            <stop style="stop-color:#fe9d03;stop-opacity:1" offset="0"></stop>
+            <stop style="stop-color:#fefd05;stop-opacity:1" offset="1"></stop>
+        </linearGradient>
+        <linearGradient xlink:href="#a" id="b" x1="78.309" y1="121.173" x2="76.106" y2="5.471"
+                        gradientUnits="userSpaceOnUse"></linearGradient>
+    </defs>
+    <g style="display:inline">
+        <g style="display:inline">
+            <ellipse style="display:inline;fill:url(#b);fill-opacity:1;fill-rule:nonzero;stroke-width:.970887"
+                     cx="76.743" cy="63.564" transform="rotate(.972) skewX(-.02)" rx="58.767" ry="58.185"></ellipse>
+        </g>
+        <text xml:space="preserve"
+              style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:51.0849px;font-family:&quot;Arial Black&quot;;-inkscape-font-specification:&quot;Arial Black, Normal&quot;;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#0f0a00;fill-opacity:1;fill-rule:nonzero;stroke-width:.766279"
+              x="20.803" y="84.97" transform="scale(1.2157 .82257)"><tspan x="20.803" y="84.97" style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:51.0849px;font-family:&quot;Arial Black&quot;;-inkscape-font-specification:&quot;Arial Black, Normal&quot;;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0f0a00;fill-opacity:1;stroke-width:.766279">TANTUS</tspan></text>
+        <text xml:space="preserve"
+              style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:22.8109px;font-family:&quot;Arial Black&quot;;-inkscape-font-specification:&quot;Arial Black, Normal&quot;;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#090500;fill-opacity:1;fill-rule:nonzero;stroke-width:.301486"
+              x="19.53" y="134.165" transform="scale(1.48601 .67294)"><tspan x="19.53" y="134.165" style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:22.8109px;font-family:&quot;Arial Black&quot;;-inkscape-font-specification:&quot;Arial Black, Normal&quot;;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#090500;fill-opacity:1;stroke-width:.301486">CORPORATION</tspan></text>
+    </g>
+    <path style="fill:#090500;fill-opacity:1;fill-rule:nonzero;stroke:#000;stroke-opacity:1"
+          d="m30.377 74.677 272.761.95"></path>
+</svg>

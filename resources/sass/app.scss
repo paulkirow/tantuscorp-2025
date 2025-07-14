@@ -42,6 +42,10 @@ $border-color: #CCCCCC;
 
 
 // Additional customizations
+$font-size-base: 0.875rem;
+$link-decoration: none;
+$link-hover-decoration: underline;
+
 $headings-line-height: 1.2;
 $headings-margin-bottom: 1rem;
 
@@ -53,7 +57,12 @@ $headings-font-weight: 700;
 // 3. Import Bootstrap source files
 @import "bootstrap/scss/bootstrap";
 
-// 4. Add your custom styles below
-body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+// 4. Other Custom Styles
+.transition-header {
+    transition: padding 0.3s ease, height 0.3s ease;
+}
+
+header.sticky-shrink {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
 }
