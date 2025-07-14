@@ -1,0 +1,59 @@
+// 1. Import Bootstrap functions first (needed for variable overrides)
+@import "bootstrap/scss/functions";
+
+// 2. Override variables here
+
+// COLOURS
+// Light base
+$body-bg: #FDFDFD;             // Light neutral background
+$body-color: #1A1A1A;          // Dark gray text for strong readability
+
+// Primary color — your core theme color from legacy site
+$primary: #4872CC;             // Medium steel/navy blue
+$secondary: #3B5CAB;           // Slightly darker blue for contrast (used as needed)
+
+// Accent color (optional muted tone)
+$info: #B4C9F0;                // Light desaturated blue for info sections, alerts
+
+// Link colors
+$link-color: $primary;
+$link-hover-color: darken($primary, 15%); // ~#3658A3
+
+// Navbar
+$navbar-bg: #4872CC;
+$navbar-light-color: #FFFFFF;
+$navbar-light-hover-color: lighten(#FFFFFF, 10%);
+$navbar-light-active-color: #FFFFFF;
+$navbar-light-brand-color: #FFFFFF;
+$navbar-light-brand-hover-color: #DDE7FB;
+
+// Button colors
+$btn-primary-bg: $primary;
+$btn-primary-border-color: darken($primary, 5%);
+$btn-primary-hover-bg: darken($primary, 10%);
+$btn-primary-hover-border-color: darken($primary, 15%);
+
+// Borders
+$border-color: #CCCCCC;
+
+// FOR LATER
+//$primary: #FE9D03;             // Warm orange from logo gradient
+//$secondary: #FDFD05;           // Bright yellow from logo gradient
+
+
+// Additional customizations
+$headings-line-height: 1.2;
+$headings-margin-bottom: 1rem;
+
+// Use Montserrat for both body and headings
+$font-family-base: 'Montserrat', 'Open Sans', sans-serif;
+$headings-font-family: 'Montserrat', 'Open Sans', sans-serif;
+$headings-font-weight: 700;
+
+// 3. Import Bootstrap source files
+@import "bootstrap/scss/bootstrap";
+
+// 4. Add your custom styles below
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
