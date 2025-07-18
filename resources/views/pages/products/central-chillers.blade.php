@@ -10,52 +10,52 @@
     <div class="row g-4">
         <div class="col-12 pb-3">
             <div class="text-center mb-4">
-                <p>Depend on Thermal Care for efficient and reliable central chilling systems – no matter what the need or application. With several different designs to choose from, you can get exactly the capacity you need with all the features you want.</p>
+                <p>Tantus Corporation partners with Thermal Care to deliver advanced central chilling systems designed for demanding industrial applications. Engineered for efficiency, modularity, and long-term reliability, these systems support a wide range of process cooling needs.</p>
             </div>
-        </div>
-
-        <!-- TS Series -->
-        <div class="col-md-6 text-center">
-            <a href="http://www.thermalcare.com/central_chillers/ts-series-central-chillers.htm" target="_blank">
-                <img src="chillers/chille8.jpg" class="img-fluid mb-2" alt="TS Series Central Chillers">
-            </a>
-            <h5 class="text-primary">TS Series Central Chillers</h5>
-            <p class="mb-1"><small>20 to 100 tons</small></p>
-            <p class="small">Energy-efficient, trouble-free scroll compressors, available with two, four, or six compressors.</p>
-            <a href="http://www.thermalcare.com/central_chillers/ts-series-central-chillers.htm" target="_blank" class="btn btn-link p-0">Brochures & More Information &gt;</a>
-        </div>
-
-        <!-- TX Series -->
-        <div class="col-md-6 text-center">
-            <a href="http://www.thermalcare.com/central_chillers/tx-series-central-chillers.htm" target="_blank">
-                <img src="chillers/chille9.jpg" class="img-fluid mb-2" alt="TX Series Central Chillers">
-            </a>
-            <h5 class="text-primary">TX Series Central Chillers</h5>
-            <p class="mb-1"><small>40 to 440 tons</small></p>
-            <p class="small">Uses advanced Trane twin rotary screw compressors for high reliability, energy efficiency, and reduced noise.</p>
-            <a href="http://www.thermalcare.com/central_chillers/tx-series-central-chillers.htm" target="_blank" class="btn btn-link p-0">Brochures & More Information &gt;</a>
         </div>
 
         <!-- TC Series -->
         <div class="col-md-6 text-center">
-            <a href="http://www.thermalcare.com/central_chillers/tc-series-central-chillers.htm" target="_blank">
-                <img src="chillers/chille10.jpg" class="img-fluid mb-2" alt="TC Series Central Chillers">
+            <a href="https://www.thermalcare.com/tc-centrifugal-compressor-chiller/" target="_blank">
+                <img src="chillers/TC_Dual_Circuit.webp" class="img-fluid mb-2" alt="TC Series Dual Circuit" style="max-height: 180px">
             </a>
             <h5 class="text-primary">TC Series Central Chillers</h5>
-            <p class="mb-1"><small>60 to 180 tons</small></p>
-            <p class="small">Most reliable, energy-efficient, and quietest industrial chillers with advanced oil-free compressors.</p>
-            <a href="http://www.thermalcare.com/central_chillers/tc-series-central-chillers.htm" target="_blank" class="btn btn-link p-0">Brochures & More Information &gt;</a>
+            <p class="mb-1"><small>60 to 800 tons</small></p>
+            <p class="small">High-efficiency chillers using oil-free centrifugal compressors, ideal for large-capacity needs and reduced energy consumption.</p>
+            <a href="https://www.thermalcare.com/tc-centrifugal-compressor-chiller/" target="_blank" class="btn btn-link p-0">Brochures & More Information &gt;</a>
         </div>
 
-        <!-- PA Series -->
+        <!-- TSE Series -->
         <div class="col-md-6 text-center">
-            <a href="http://www.thermalcare.com/central_chillers/outdoor-central-chillers.htm" target="_blank">
-                <img src="chillers/chille11.jpg" class="img-fluid mb-2" alt="PA Series Outdoor Central Chillers">
+            <a href="https://www.thermalcare.com/tse-scroll-compressor-chiller/" target="_blank">
+                <img src="chillers/TSE with tank-CPQ.webp" class="img-fluid mb-2" alt="TSE Series Central Chillers" style="max-height: 180px">
             </a>
-            <h5 class="text-primary">PA Series Outdoor Central Chillers</h5>
-            <p class="mb-1"><small>10 to 490 tons</small></p>
-            <p class="small">Air-cooled scroll or rotary screw compressors. Outdoor-ready, easy to install, operate, and maintain.</p>
-            <a href="http://www.thermalcare.com/central_chillers/outdoor-central-chillers.htm" target="_blank" class="btn btn-link p-0">Brochures & More Information &gt;</a>
+            <h5 class="text-primary">TSE Series Central Chillers</h5>
+            <p class="mb-1"><small>10 to 240 tons</small></p>
+            <p class="small">Scroll compressor systems with compact design and reliable performance. Available with or without integral reservoir tanks.</p>
+            <a href="https://www.thermalcare.com/tse-scroll-compressor-chiller/" target="_blank" class="btn btn-link p-0">Brochures & More Information &gt;</a>
+        </div>
+
+        <!-- MX Series -->
+        <div class="col-md-6 text-center">
+            <a href="https://www.thermalcare.com/mx-rotary-screw-compressor/" target="_blank">
+                <img src="chillers/MX_CPQ.webp" class="img-fluid mb-2" alt="MX Series Central Chillers" style="max-height: 180px">
+            </a>
+            <h5 class="text-primary">MX Series Central Chillers</h5>
+            <p class="mb-1"><small>50 to 500 tons</small></p>
+            <p class="small">Designed for flexibility and growth with multiple scroll or screw compressors. Modular for future capacity expansion.</p>
+            <a href=https://www.thermalcare.com/mx-rotary-screw-compressor/" target="_blank" class="btn btn-link p-0">Brochures & More Information &gt;</a>
+        </div>
+
+        <!-- TCF Series -->
+        <div class="col-md-6 text-center">
+            <a href="https://www.thermalcare.com/tcf-centrifugal-compressor/" target="_blank">
+                <img src="chillers/TCFW350_11.webp" class="img-fluid mb-2" alt="TCF Series Central Chillers" style="max-height: 180px">
+            </a>
+            <h5 class="text-primary">TCF Series Central Chillers</h5>
+            <p class="mb-1"><small>50 & 100 tons</small></p>
+            <p class="small">Compact, pre-engineered centrifugal chiller packages offering oil-free reliability and advanced PLC control.</p>
+            <a href="https://www.thermalcare.com/tcf-centrifugal-compressor/" target="_blank" class="btn btn-link p-0">Brochures & More Information &gt;</a>
         </div>
     </div>
 @endsection
