@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@yield('title', 'Tantus Corporation')</title>
-    @vite(['resources/js/app.js', 'resources/css/theme.css'])
+    @vite(['resources/js/app.js', 'resources/css/theme.css', 'resources/css/theme-elements.css'])
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net" />

@@ -1,7 +1,6 @@
 import '../sass/app.scss';
 
-import './bootstrap';
-
+import 'bootstrap';
 
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
