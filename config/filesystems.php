@@ -35,9 +35,9 @@ return [
             'root' => storage_path('app/private'),
         ],
 
-        'pages' => [
+        'docs' => [
             'driver' => 'local',
-            'root' => 'pages',
+            'root' => 'docs',
         ],
     ],
 
