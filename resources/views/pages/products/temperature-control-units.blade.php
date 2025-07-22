@@ -14,7 +14,7 @@
 
     <div class="row g-4">
         <div class="col-lg-6 d-flex">
-            <img src="/tcu/RQT_Premium-Right-CPQ.webp" alt="RQT Series Temperature Control Units" class="me-3" style="max-height: 160px;">
+            <img src="{{ asset('/tcu/RQT_Premium-Right-CPQ.webp') }}" alt="RQT Series Temperature Control Units" class="me-3" style="max-height: 160px;">
             <div>
                 <h5 class="text-primary mb-1">RQT Series Water Temperature Control Units</h5>
                 <p class="mb-1">
@@ -29,7 +29,7 @@
         </div>
 
         <div class="col-lg-6 d-flex">
-            <img src="/tcu/ROH 12-24 KW-Right-web.webp" alt="ROH Series Hot Oil Units" class="me-3" style="max-height: 160px;">
+            <img src="{{ asset('/tcu/ROH 12-24 KW-Right-web.webp') }}" alt="ROH Series Hot Oil Units" class="me-3" style="max-height: 160px;">
             <div>
                 <h5 class="text-primary mb-1">ROH Series Hot Oil Temperature Control Units</h5>
                 <p class="mb-1">
@@ -44,7 +44,7 @@
         </div>
 
         <div class="col-lg-6 d-flex">
-            <img src="/tcu/RVU right-w.webp" alt="RVU Series Pressure Control Units" class="me-3" style="max-height: 160px;">
+            <img src="{{ asset('/tcu/RVU right-w.webp') }}" alt="RVU Series Pressure Control Units" class="me-3" style="max-height: 160px;">
             <div>
                 <h5 class="text-primary mb-1">RVU Series Positive/Negative Pressure Units</h5>
                 <p class="mb-1">
@@ -58,7 +58,7 @@
         </div>
 
         <div class="col-lg-6 d-flex">
-            <img src="/tcu/RMC-std-w.webp" alt="RMC Series Compact Water Units" class="me-3" style="max-height: 160px;">
+            <img src="{{ asset('/tcu/RMC-std-w.webp') }}" alt="RMC Series Compact Water Units" class="me-3" style="max-height: 160px;">
             <div>
                 <h5 class="text-primary mb-1">RMC Series Water Temperature Control Units</h5>
                 <p class="mb-1">

@@ -14,7 +14,7 @@
     <div class="row g-4">
         <div class="col-md-4 text-center">
             <a href="https://www.thermalcare.com/water-treatment-systems/" target="_blank">
-                <img src="/accessories/Water Treatment.webp" class="img-fluid mb-2" alt="Water Treatment Systems" style="max-height: 180px">
+                <img src="{{ asset('/accessories/Water Treatment.webp') }}" class="img-fluid mb-2" alt="Water Treatment Systems" style="max-height: 180px">
             </a>
             <h5 class="text-primary">Water Treatment Systems</h5>
             <p class="small">Essential for cooling towers, these systems help prevent scale, suspended solids, and microbiological growth. The TWC Series delivers all necessary treatment features in a compact, easy-to-operate panel with multilingual display options.</p>
@@ -23,7 +23,7 @@
 
         <div class="col-md-4 text-center">
             <a href="https://www.thermalcare.com/filtration-equipment/" target="_blank">
-                <img src="/accessories/Water Treatment Group.webp" class="img-fluid mb-2" alt="Filtration Equipment" style="max-height: 180px">
+                <img src="{{ asset('/accessories/Water Treatment Group.webp') }}" class="img-fluid mb-2" alt="Filtration Equipment" style="max-height: 180px">
             </a>
             <h5 class="text-primary">Filtration Equipment</h5>
             <p class="small">Protect system components from physical debris with a wide range of filtration options—ranging from cartridge and bag filters to high-capacity stainless steel strainer/filters. All options are designed for reliable protection and minimal flow disruption.</p>
@@ -32,7 +32,7 @@
 
         <div class="col-md-4 text-center">
             <a href="https://www.thermalcare.com/heat-exchangers/" target="_blank">
-                <img src="/accessories/PTS_4500.webp" class="img-fluid mb-2" alt="Heat Exchangers" style="max-height: 180px">
+                <img src="{{ asset('/accessories/PTS_4500.webp') }}" class="img-fluid mb-2" alt="Heat Exchangers" style="max-height: 180px">
             </a>
             <h5 class="text-primary">Heat Exchangers</h5>
             <p class="small">Plate and frame heat exchangers enhance system efficiency, safety, and serviceability. Ideal for reducing long-term operating costs and improving thermal performance in conjunction with chillers, cooling towers, or dry coolers.</p>
