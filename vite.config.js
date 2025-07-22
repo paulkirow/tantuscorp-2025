@@ -7,7 +7,6 @@ export default defineConfig({
             input: [
                 'resources/js/app.js',
                 'resources/sass/app.scss',
-                'resources/css/app.css',
                 'resources/css/theme.css',
                 'resources/css/theme-elements.css',
                 'resources/css/vendor/simple-line-icons.css',
