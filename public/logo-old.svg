@@ -11,6 +11,8 @@
         <g style="display:inline">
             <ellipse style="display:inline;fill:url(#b);fill-opacity:1;fill-rule:nonzero;stroke-width:.970887"
                      cx="76.743" cy="63.564" transform="rotate(.972) skewX(-.02)" rx="58.767" ry="58.185"></ellipse>
+            <ellipse stroke="black" fill="none" stroke-width=".766279"
+                     cx="76.743" cy="63.564" transform="rotate(.972) skewX(-.02)" rx="58.767" ry="58.185"></ellipse>
         </g>
         <text xml:space="preserve"
               style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:51.0849px;font-family:&quot;Arial Black&quot;;-inkscape-font-specification:&quot;Arial Black, Normal&quot;;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#0f0a00;fill-opacity:1;fill-rule:nonzero;stroke-width:.766279"

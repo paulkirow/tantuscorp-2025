@@ -1,7 +1,12 @@
 import '../sass/app.scss';
 
 import 'bootstrap';
+import $ from 'jquery';
 
+window.$ = window.jQuery = $;
+window.jQuery = $;
+
+import 'jquery-visible';
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {

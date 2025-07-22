@@ -2,25 +2,25 @@
     'title' => 'Temperature Control Units',
     'breadcrumbs' => [
         ['title' => 'Products', 'url' => url('/products')],
-        ['title' => 'TCU', 'url' => url('/temperature_control_units')],
+        ['title' => 'TCU', 'url' => url('/temperature-control-units')],
     ],
 ])
 
 @section('content')
-
     <p>
-        For dependable and accurate water temperature control choose Thermal Care. Each water temperature control unit is designed and built to meet or exceed
-        the performance standards demanded by today’s manufacturing environment. Available in water, hot oil, or positive / negative pressure.
+        Thermal Care temperature control units are engineered for precision, reliability, and versatility. Whether you need water, hot oil, or
+        positive/negative pressure control, each unit is built to deliver consistent performance across demanding industrial applications.
     </p>
 
     <div class="row g-4">
-        <div class="col-md-6 d-flex">
-            <img src="/tcu/temper15.jpg" alt="Aquatherm RA Series" class="me-3" width="98" height="101">
+        <div class="col-lg-6 d-flex">
+            <img src="/tcu/RQT_Premium-Right-CPQ.webp" alt="RQT Series Temperature Control Units" class="me-3" style="max-height: 160px;">
             <div>
-                <h5 class="text-primary mb-1">Aquatherm RA Series Water Temperature Control – Water</h5>
+                <h5 class="text-primary mb-1">RQT Series Water Temperature Control Units</h5>
                 <p class="mb-1">
-                    Units are made with the best available components such as premium quality solenoid valves, high flow pumps with leak-resistant
-                    silicon carbide seals and rugged incoloy heaters for years of maintenance free operation.
+                    Compact and user-friendly, RQT units feature high flow pumps with leak-resistant silicon carbide seals and rugged Incoloy
+                    heaters. Each unit is equipped with a large operator interface for enhanced control and diagnostics, ensuring dependable
+                    operation for mold temperature management.
                 </p>
                 <a href="http://www.thermalcare.com/temperature_controllers/aquatherm-ra-series.htm" target="_blank" class="text-primary text-decoration-none">
                     Brochures &amp; More Information &gt;
@@ -28,43 +28,44 @@
             </div>
         </div>
 
-        <div class="col-md-6 d-flex">
-            <img src="/tcu/temper16.jpg" alt="CRA Series" class="me-3" width="115" height="113">
+        <div class="col-lg-6 d-flex">
+            <img src="/tcu/ROH 12-24 KW-Right-web.webp" alt="ROH Series Hot Oil Units" class="me-3" style="max-height: 160px;">
             <div>
-                <h5 class="text-primary mb-1">CRA Series Water Temperature Control – CD &amp; DVD</h5>
+                <h5 class="text-primary mb-1">ROH Series Hot Oil Temperature Control Units</h5>
                 <p class="mb-1">
-                    Replicators can now get precise temperature control for multiple zones of any optical disc mold from a durable, single-point temperature control unit.
-                    The CRA Series unit can control any type of mold zone including moveable, stationary, sprue and punch cut.
+                    Designed for high-temperature applications up to 575°F (302°C), the ROH Series ensures optimal heat transfer with high
+                    velocity oil flow and preheating for reduced viscosity. PLC controls offer programmable start/stop, alarms, and setpoint
+                    security.
                 </p>
-                <a href="http://www.thermalcare.com/temperature_controllers/cra-series.htm" target="_blank" class="text-primary text-decoration-none">
+                <a href="http://www.thermalcare.com/temperature_controllers/oiltherm-series.htm" target="_blank" class="text-primary text-decoration-none">
                     Brochures &amp; More Information &gt;
                 </a>
             </div>
         </div>
 
-        <div class="col-md-6 d-flex">
-            <img src="/tcu/temper17.jpg" alt="Oiltherm RO Series" class="me-3" width="100" height="102">
+        <div class="col-lg-6 d-flex">
+            <img src="/tcu/RVU right-w.webp" alt="RVU Series Pressure Control Units" class="me-3" style="max-height: 160px;">
             <div>
-                <h5 class="text-primary mb-1">Oiltherm RO Series Water Temperature Control – Hot Oil</h5>
+                <h5 class="text-primary mb-1">RVU Series Positive/Negative Pressure Units</h5>
                 <p class="mb-1">
-                    The Oiltherm is designed to work with a wide range of high temperature applications in the 125°F to 575°F range.
-                    The Oiltherm assures high velocity oil flow across heater elements for optimum heat transfer and fluid life.
+                    The RVU Series prevents downtime by maintaining control even with mold or circuit leaks. Its adjustable vacuum system
+                    eliminates air intake while optimizing temperature stability at low flow rates—ideal for sensitive processes.
                 </p>
-                <a href="http://www.thermalcare.com/temperature_controllers/oiltherm-ro-series.htm" target="_blank" class="text-primary text-decoration-none">
+                <a href="http://www.thermalcare.com/temperature_controllers/vactherm-series.htm" target="_blank" class="text-primary text-decoration-none">
                     Brochures &amp; More Information &gt;
                 </a>
             </div>
         </div>
 
-        <div class="col-md-6 d-flex">
-            <img src="/tcu/temper18.jpg" alt="Vactherm RV Series" class="me-3" width="97" height="105">
+        <div class="col-lg-6 d-flex">
+            <img src="/tcu/RMC-std-w.webp" alt="RMC Series Compact Water Units" class="me-3" style="max-height: 160px;">
             <div>
-                <h5 class="text-primary mb-1">Vactherm RV Series Water Temperature Control – Positive/Negative Pressure</h5>
+                <h5 class="text-primary mb-1">RMC Series Water Temperature Control Units</h5>
                 <p class="mb-1">
-                    The unique design of the Vactherm allows the vacuum level to be adjusted to the exact amount necessary to stop the leakage,
-                    without drawing air into the water circuit.
+                    The compact RMC Series offers full performance in a smaller footprint. Like its larger counterpart, it includes premium
+                    components and a user-friendly interface, making it ideal for space-limited molding environments.
                 </p>
-                <a href="http://www.thermalcare.com/temperature_controllers/vactherm-rv-series.htm" target="_blank" class="text-primary text-decoration-none">
+                <a href="http://www.thermalcare.com/temperature_controllers/mini-aquatherm-series.htm" target="_blank" class="text-primary text-decoration-none">
                     Brochures &amp; More Information &gt;
                 </a>
             </div>

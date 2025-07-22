@@ -1,5 +1,5 @@
 @extends('layouts.layout', [
-    'title' => 'Cooling Towers: 22-1350 TR',
+    'title' => 'Cooling Towers: 32-1200 TR',
     'numBeforeBold' => 2,
     'breadcrumbs' => [
         ['title' => 'Products', 'url' => url('/products')],
@@ -8,60 +8,54 @@
 ])
 
 @section('content')
-
-    <h2 class="text-primary text-center mb-4">Cooling Towers: 22–1350 TR</h2>
-    <p>
-        Fiberglass cooling towers are an ideal alternative to metal cooling towers. Water cooling towers are manufactured with corrosion-resistant materials.
-        The FC Series cooling towers and FT Series cooling towers are lightweight, require low maintenance, and have an extended life.
+    <p class="pb-5">
+        Industrial cooling towers offer a highly efficient, cost-effective solution for process heat removal—especially where water-cooled systems are in use. Tantus supplies fiberglass and hybrid cooling towers engineered for long life, low maintenance, and high thermal performance. Ideal for applications where inlet water temperatures of 85°F or higher are required, these systems support chiller efficiency and reliable year-round operation.
     </p>
 
     <div>
-        <div class="d-flex">
-            <img src="/tower/tower.13.jpg" alt="FT Series Cooling Tower" class="me-3" width="88" height="87">
+        <div class="d-flex pb-3">
+            <img src="/tower/FT-CPQ.webp" alt="FT Series Cooling Tower" class="me-3" style="max-height:400px">
             <div>
-                <h5 class="text-primary mb-1">FT Series – 22 to 120 tons</h5>
+                <h5 class="text-primary mb-1">FT Series – 38 to 120 tons</h5>
                 <p class="mb-1">
-                    These lightweight fiberglass cooling towers are designed for long life and low maintenance at a competitive price.
-                    FT Series cooling towers are of a counter flow design, carefully engineered with the optimum combination of heat transfer media,
-                    uniform air flow and even water distribution.
+                    Lightweight and corrosion-resistant, FT Series fiberglass cooling towers are engineered for optimal performance and energy efficiency.
+                    Featuring a counterflow design and precision-balanced airflow and water distribution, they maximize heat transfer while keeping power usage low.
                 </p>
-                <a href="http://www.thermalcare.com/cooling_towers/ft-series-cooling-towers.htm" target="_blank" class="text-primary text-decoration-none">
+                <a href="https://www.thermalcare.com/ft-cooling-towers/" target="_blank" class="text-primary text-decoration-none">
                     Brochures &amp; More Information &gt;
                 </a>
             </div>
         </div>
 
-        <div class="d-flex">
-            <img src="/tower/templa13.jpg" alt="FC Series Cooling Tower" class="me-3" width="109" height="92">
+        <div class="d-flex pb-3">
+            <img src="/tower/FC700-CPQ.webp" alt="FC Series Cooling Tower" class="me-3" style="max-height:400px">
             <div>
                 <h5 class="text-primary mb-1">FC Series – 100 to 240 tons</h5>
                 <p class="mb-1">
-                    The FC Series cooling towers are designed for outdoor use in industrial manufacturing locations and come with the industry’s best warranty.
+                    Built for rugged industrial environments, the FC Series offers superior durability with a 10-year shell warranty and 5-year motor warranty.
+                    These towers are pre-assembled for quick installation and provide consistent performance in outdoor process cooling applications.
                 </p>
-                <a href="http://www.thermalcare.com/cooling_towers/fc-series-cooling-towers.htm" target="_blank" class="text-primary text-decoration-none">
+                <a href="https://www.thermalcare.com/fc-cooling-towers/" target="_blank" class="text-primary text-decoration-none">
                     Brochures &amp; More Information &gt;
                 </a>
             </div>
         </div>
 
-        <div class="d-flex">
-            <div class="me-3 d-flex flex-column align-items-center">
-                <img src="/tower/tower.28.gif" alt="BAC 1500 Series Cooling Tower" class="mb-2" width="172" height="95">
-                <img src="/tower/tower.14.jpg" alt="BAC 3000 Series Cooling Tower" width="174" height="95">
-            </div>
+        <div class="d-flex pb-3">
+            <img src="/tower/hfcg-adiabatic.webp" alt="HFCG Adiabatic Fluid Cooler" class="me-3" style="max-height:400px">
             <div>
-                <h5 class="text-primary mb-1">BAC 1500 Series Cooling Tower – 128 to 428 tons</h5>
-                <h5 class="text-primary mb-1">BAC 3000 Series Cooling Tower – 220 to 1350 tons</h5>
+                <h5 class="text-primary mb-1">HFCG Adiabatic Fluid Coolers – 50 to 1200 tons</h5>
                 <p class="mb-1">
-                    BAC Cooling Towers minimize the operating, installation, and maintenance costs associated with both new and replacement cooling tower projects.
-                    The Series 1500 delivers independently verified, fully rated thermal performance over a wide range of flow and temperature requirements.
-                    Standard design features minimize the costs associated with enclosures, support requirements, electrical service, piping, and rigging.
+                    HFCG Adiabatic Fluid Coolers offer a high-efficiency, closed-loop cooling solution that uses ambient air and a unique adiabatic design
+                    to achieve low leaving water temperatures year-round—comparable to traditional evaporative towers. Ideal for reducing energy use,
+                    minimizing water consumption, and cutting operating costs.
                 </p>
-                <a href="http://www.baltimoreaircoil.com/english/products/ct/index.html" target="_blank" class="text-primary text-decoration-none">
+                <a href="https://www.thermalcare.com/adiabatic-fluid-coolers" target="_blank" class="text-primary text-decoration-none">
                     Brochures &amp; More Information &gt;
                 </a>
             </div>
         </div>
+
     </div>
 
 @endsection

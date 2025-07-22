@@ -41,9 +41,9 @@
             <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
                 <h5 class="text-4 text-light mb-3">SOLUTIONS</h5>
                 <ul class="list list-unstyled mb-0">
-                    <li class="mb-0"><a href="{{ url('/cooling_load_analysis') }}">Cooling Load Analysis</a></li>
+                    <li class="mb-0"><a href="{{ url('/cooling-load-analysis') }}">Cooling Load Analysis</a></li>
                     <li class="mb-0"><a href="{{ url('/trouble_shooting') }}">Trouble Shooting</a></li>
-                    <li class="mb-0"><a href="{{ url('/energy_audits') }}">Energy Audits</a></li>
+                    <li class="mb-0"><a href="{{ url('/energy-audits') }}">Energy Audits</a></li>
                     <li class="mb-0"><a href="{{ url('/free_cooling') }}">Free Cooling</a></li>
                     <li class="mb-0"><a href="{{ url('/installation_and_startup') }}">Installation &amp; Start Up</a></li>
                 </ul>

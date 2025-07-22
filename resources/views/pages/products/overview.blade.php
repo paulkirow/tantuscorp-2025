@@ -7,16 +7,24 @@
 ])
 
 @section('content')
-    <div class="row g-4">
+    <div class="row gx-4 gy-5">
         <div class="col-12 pb-3">
-            <p>There is a full complement of products suited for the smallest to the largest projects—ranging from simple self-contained units to large central systems.</p>
+            <p>
+                Tantus offers a full complement of industrial cooling products,
+                engineered to support everything from compact, standalone installations
+                to expansive, high-capacity systems.
+            </p>
+            <p>
+                All equipment is customizable to meet the specific performance,
+                efficiency, and footprint requirements of your project.
+            </p>
         </div>
 
         {{-- Portable Chillers --}}
         <div class="col-md-6 d-flex">
             <div class="me-3">
                 <a href="{{ url('/portables') }}" title="Portable Chillers">
-                    <img src="{{ asset('products/prod_pc_sq.jpg') }}" alt="Portable Chillers" class="img-fluid" width="74" height="61">
+                    <img src="{{ asset('products/NQA04-05-CPQ.webp') }}" alt="Portable Chillers" class="img-fluid" style="max-width: 80px">
                 </a>
             </div>
             <div>
@@ -24,8 +32,8 @@
                     <a href="{{ url('/portables') }}" class="text-decoration-none text-primary">Portable Chillers</a>
                     <small class="text-muted ms-2">1 – 40 TR</small>
                 </h5>
-                <p class="mb-1 small">Portable chillers are self-contained air-cooled units as well as water-cooled and remote air-cooled.</p>
-                <a href="http://www.thermalcare.com/temperature_controllers/aquatherm-ra-series.htm" target="_blank" class="btn btn-link p-0 small">Brochures & More Information &gt;</a>
+                <p class="mb-1 small">Self-contained systems with integrated refrigeration, pumps, and reservoirs—available in air-cooled, water-cooled, or remote condenser designs.</p>
+                <a href="https://www.thermalcare.com/portable-chillers/" target="_blank" class="btn btn-link p-0 small">Brochures & More Information &gt;</a>
             </div>
         </div>
 
@@ -33,7 +41,7 @@
         <div class="col-md-6 d-flex">
             <div class="me-3">
                 <a href="{{ url('/chillers') }}" title="Central Chillers">
-                    <img src="{{ asset('products/prod_cc_tsw.gif') }}" alt="Central Chillers" class="img-fluid" width="138" height="84">
+                    <img src="{{ asset('products/TC-Dual Circuit-CPQ.webp') }}" alt="Central Chillers" class="img-fluid" style="max-width: 80px">
                 </a>
             </div>
             <div>
@@ -41,8 +49,8 @@
                     <a href="{{ url('/chillers') }}" class="text-decoration-none text-primary">Central Chillers</a>
                     <small class="text-muted ms-2">20 – 490 TR</small>
                 </h5>
-                <p class="mb-1 small">Scroll, screw, and Turbocore compressors. Available as remote air-cooled or water-cooled, and also as packaged units.</p>
-                <a href="http://www.thermalcare.com/temperature_controllers/cra-series.htm" target="_blank" class="btn btn-link p-0 small">Brochures & More Information &gt;</a>
+                <p class="mb-1 small">High-capacity cooling solutions with scroll, screw, or oil-free Turbocor compressors. Modular and energy-efficient, ideal for multi-process facilities.</p>
+                <a href="https://www.thermalcare.com/central-chillers/" target="_blank" class="btn btn-link p-0 small">Brochures & More Information &gt;</a>
             </div>
         </div>
 
@@ -50,7 +58,7 @@
         <div class="col-md-6 d-flex">
             <div class="me-3">
                 <a href="{{ url('/pumps_and_reservoirs') }}" title="Pump and Reservoir Systems">
-                    <img src="{{ asset('products/PumpReservoir.jpg') }}" alt="Pump and Reservoir Systems" class="img-fluid" width="110" height="90">
+                    <img src="{{ asset('products/PT-CPQ.webp') }}" alt="Pump and Reservoir Systems" class="img-fluid" style="max-width: 80px">
                 </a>
             </div>
             <div>
@@ -58,8 +66,8 @@
                     <a href="{{ url('/pumps_and_reservoirs') }}" class="text-decoration-none text-primary">Pump/Reservoir Systems</a>
                     <small class="text-muted ms-2">500 – 6000 Gallons</small>
                 </h5>
-                <p class="mb-1 small">Available in mild steel, stainless steel, and fiberglass with many pump configurations.</p>
-                <a href="http://www.thermalcare.com/temperature_controllers/oiltherm-ro-series.htm" target="_blank" class="btn btn-link p-0 small">Brochures & More Information &gt;</a>
+                <p class="mb-1 small">Custom-built systems in steel, stainless, or fiberglass. Multiple pump configurations available for seamless integration with chillers and towers.</p>
+                <a href="https://www.thermalcare.com/pumping-systems/" target="_blank" class="btn btn-link p-0 small">Brochures & More Information &gt;</a>
             </div>
         </div>
 
@@ -67,32 +75,32 @@
         <div class="col-md-6 d-flex">
             <div class="me-3">
                 <a href="{{ url('/tower') }}" title="Cooling Towers">
-                    <img src="{{ asset('products/templa13.jpg') }}" alt="Cooling Towers" class="img-fluid" width="109" height="92">
+                    <img src="{{ asset('products/FC700-CPQ.webp') }}" alt="Cooling Towers" class="img-fluid" style="max-width: 80px">
                 </a>
             </div>
             <div>
                 <h5>
                     <a href="{{ url('/tower') }}" class="text-decoration-none text-primary">Cooling Towers</a>
-                    <small class="text-muted ms-2">22 – 1350 TR</small>
+                    <small class="text-muted ms-2">38 – 1200 TR</small>
                 </h5>
-                <p class="mb-1 small">Fiberglass towers with reservoirs and TEFC motors. BOC single and multi-cell options available up to 1350 TR.</p>
-                <a href="http://www.thermalcare.com/temperature_controllers/vactherm-rv-series.htm" target="_blank" class="btn btn-link p-0 small">Brochures & More Information &gt;</a>
+                <p class="mb-1 small">Evaporative cooling towers constructed from durable fiberglass. Designed with high-efficiency fill, TEFC motors, and multi-cell configurations.</p>
+                <a href="https://www.thermalcare.com/cooling-towers/" target="_blank" class="btn btn-link p-0 small">Brochures & More Information &gt;</a>
             </div>
         </div>
 
         {{-- Temperature Control Units --}}
         <div class="col-md-6 d-flex">
             <div class="me-3">
-                <a href="{{ url('/temperature_control_units') }}" title="Temperature Control Units">
-                    <img src="{{ asset('products/templa14.jpg') }}" alt="Temperature Control Units" class="img-fluid" width="89" height="92">
+                <a href="{{ url('/temperature-control-units') }}" title="Temperature Control Units">
+                    <img src="{{ asset('products/RQT_Premium-Right-CPQ.webp') }}" alt="Temperature Control Units" class="img-fluid" style="max-width: 80px">
                 </a>
             </div>
             <div>
                 <h5>
-                    <a href="{{ url('/temperature_control_units') }}" class="text-decoration-none text-primary">Temperature Control Units</a>
+                    <a href="{{ url('/temperature-control-units') }}" class="text-decoration-none text-primary">Temperature Control Units</a>
                 </h5>
-                <p class="mb-1 small">Consistent and dependable performance. Available in water, hot oil, or positive/negative pressure configurations.</p>
-                <a href="http://www.thermalcare.com/temperature_controllers/vactherm-rv-series.htm" target="_blank" class="btn btn-link p-0 small">Brochures & More Information &gt;</a>
+                <p class="mb-1 small">Maintain precise temperature with options for water, hot oil, and pressurized systems. Configurable with various pumps, heaters, and valves.</p>
+                <a href="https://www.thermalcare.com/temperature-controllers/" target="_blank" class="btn btn-link p-0 small">Brochures & More Information &gt;</a>
             </div>
         </div>
 
@@ -100,15 +108,15 @@
         <div class="col-md-6 d-flex">
             <div class="me-3">
                 <a href="{{ url('/accessories') }}" title="Accessories">
-                    <img src="{{ asset('products/produc3.gif') }}" alt="Accessories" class="img-fluid" width="124" height="81">
+                    <img src="{{ asset('products/Water Treatment Group.webp') }}" alt="Accessories" class="img-fluid" style="max-width: 80px">
                 </a>
             </div>
             <div>
                 <h5>
                     <a href="{{ url('/accessories') }}" class="text-decoration-none text-primary">Accessories</a>
                 </h5>
-                <p class="mb-1 small">Water treatment, filtration, blown film coolers, heat exchangers, and more to complement your system.</p>
-                <a href="http://www.thermalcare.com/temperature_controllers/vactherm-rv-series.htm" target="_blank" class="btn btn-link p-0 small">Brochures & More Information &gt;</a>
+                <p class="mb-1 small">Enhance system performance with water treatment systems, filtration units, heat exchangers, and more—tailored to your process needs.</p>
+                <a href="https://www.thermalcare.com/additional-products/" target="_blank" class="btn btn-link p-0 small">Brochures & More Information &gt;</a>
             </div>
         </div>
     </div>

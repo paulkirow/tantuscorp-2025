@@ -25,17 +25,6 @@ body a {
     outline: none !important;
 }
 
-/* Selection */
-::-moz-selection {
-    color: var(--primary-inverse);
-    background: var(--bs-primary);
-}
-
-::selection {
-    color: var(--primary-inverse);
-    background: var(--bs-primary);
-}
-
 /* Body */
 .body {
     background-color: var(--bs-light);
@@ -66,6 +55,12 @@ li {
 /* Bootstrap Vars */
 .offcanvas, .offcanvas-xxl, .offcanvas-xl, .offcanvas-lg, .offcanvas-md, .offcanvas-sm {
     --bs-offcanvas-zindex: 10000;
+}
+
+/* Header */
+#header {
+	position: relative;
+	z-index: 1030;
 }
 
 #header .header-body {

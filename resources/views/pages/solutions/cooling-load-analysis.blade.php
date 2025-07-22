@@ -80,23 +80,27 @@
                 <div class="col-md-6">
                     <h5>Injection Moulding</h5>
                     <p>
-                        <a href="/Injection Molding Heat Load Analysis.xls" class="text-primary" target="_blank">Excel
-                            Format</a>
+                        <a href="{{ asset('/InjectionMoldingHeatLoadAnalysis.xls') }}" class="text-primary" target="_blank">
+                            Excel Format
+                        </a>
                     </p>
                     <p>
-                        <a href="/Injection Molding Heat Load Analysis.pdf" class="text-primary" target="_blank">Adobe
-                            Format</a>
+                        <a href="{{ asset('/InjectionMoldingHeatLoadAnalysis.pdf') }}" class="text-primary" target="_blank">
+                            Adobe Format
+                        </a>
                     </p>
                 </div>
                 <div class="col-md-6">
                     <h5>Blow Moulding</h5>
                     <p>
-                        <a href="/Blow Molding Heat Load Analysis.xls" class="text-primary" target="_blank">Excel
-                            Format</a>
+                        <a href="/" class="text-primary" target="_blank">
+                            Excel Format
+                        </a>
                     </p>
                     <p>
-                        <a href="/Blow Molding Heat Load Analysis.pdf" class="text-primary" target="_blank">Adobe
-                            Format</a>
+                        <a href="/" class="text-primary" target="_blank">
+                            Adobe Format
+                        </a>
                     </p>
                 </div>
             </div>

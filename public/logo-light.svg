@@ -1,0 +1,28 @@
+<svg viewBox="15.87 5.68 519.52 118.35" width="519.52" height="118.35" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="b" x1="17.887" y1="122.356" x2="17.887" y2="5.406" gradientTransform="scale(1.00499 .99504)"
+                        gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#fe9d03"/>
+            <stop offset="100%" stop-color="#fefd05"/>
+        </linearGradient>
+        <linearGradient id="c" x1="17.887" y1="5.406" x2="17.887" y2="122.356" gradientTransform="scale(1.00499 .99504)"
+                        gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#fff" stop-opacity=".35"/>
+            <stop offset="50%" stop-color="#fff" stop-opacity=".1"/>
+            <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+        </linearGradient>
+        <radialGradient id="a" cx="101.5" cy="100.912" r="116.951" gradientTransform="scale(1.00499 .99504)" fx="101.5"
+                        fy="100.912" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-opacity=".2"/>
+            <stop offset="100%" stop-opacity="0"/>
+        </radialGradient>
+    </defs>
+    <ellipse cx="78.5" cy="65.5" rx="58.767" ry="58.185" fill="url(#a)" style="fill:url(#a)"/>
+    <ellipse cx="76.743" cy="63.564" rx="58.767" ry="58.185" fill="url(#b)" style="fill:url(#b)"/>
+    <ellipse cx="76.743" cy="63.564" rx="58.767" ry="58.185" fill="url(#c)" style="fill:url(#c)"/>
+    <g aria-label="TANTUS"
+       style="font-size:133.333px;font-family:&quot;Bebas Neue&quot;;fill:white;stroke-width:.766279">
+        <path
+            d="M188.726 37.437h-18.641V26.469h55.112v10.968h-18.641v65.805h-17.83ZM240.109 26.47h24.151l18.479 76.772h-17.83l-3.242-15.245v.22h-20.262l-3.242 15.025H221.63zm19.45 51.328-7.942-37.948h-.324l-7.78 37.948zM291.33 26.47h22.369l17.344 45.954h.324V26.469h15.885v76.773h-18.317L307.54 47.198h-.324v56.044H291.33zM374.483 37.437h-18.64V26.469h55.111v10.968h-18.64v65.805h-17.83zM445.48 104.34q-12.968 0-19.776-4.936-6.808-5.045-6.808-14.368V26.47h17.83v59.445q0 3.948 2.27 5.703 2.431 1.755 6.808 1.755 4.376 0 6.646-1.755 2.431-1.755 2.431-5.703V26.469h17.182v58.567q0 9.323-6.808 14.368-6.808 4.935-19.775 4.935zM507.885 104.34q-12.967 0-19.613-4.936-6.646-5.045-6.646-14.368V80.65h16.858v5.265q0 7.458 9.24 7.458 4.538 0 6.807-1.755 2.431-1.865 2.431-5.923 0-4.825-3.241-8.445-3.242-3.729-11.995-8.883-11.023-6.581-15.4-11.845-4.376-5.375-4.376-12.065 0-9.103 6.808-14.038 6.808-5.045 19.776-5.045 12.805 0 19.289 5.045 6.645 4.935 6.645 14.258v3.18h-16.857v-3.948q0-3.948-2.27-5.703-2.269-1.865-6.645-1.865-8.915 0-8.915 7.348 0 4.168 3.241 7.787 3.404 3.62 12.157 8.775 11.185 6.58 15.4 11.954 4.214 5.374 4.214 12.613 0 9.432-6.97 14.477-6.808 5.045-19.938 5.045z"/>
+    </g>
+</svg>

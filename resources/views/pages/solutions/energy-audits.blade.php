@@ -42,9 +42,9 @@
                 <div class="col-md-6">
                     <h5>Injection Moulding</h5>
                     <p>
-                        <a href="{{ asset('files/Injection Molding Heat Load Analysis.xls') }}" target="_blank"
+                        <a href="{{ asset('files/InjectionMoldingHeatLoadAnalysis.xls') }}" target="_blank"
                            class="d-block text-primary">Excel Format</a>
-                        <a href="{{ asset('files/Injection Molding Heat Load Analysis.pdf') }}" target="_blank"
+                        <a href="{{ asset('files/InjectionMoldingHeatLoadAnalysis.pdf') }}" target="_blank"
                            class="d-block text-primary">Adobe Format</a>
                     </p>
                 </div>

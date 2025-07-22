@@ -3,7 +3,7 @@
         <div class="header-logo">
             <a href="{{ url('/') }}">
                 <img
-                    alt="Porto"
+                    alt="Tantus Corporation"
                     height="42"
                     src="{{ asset('logo.svg') }}"
                 />

@@ -8,63 +8,35 @@
 
 @section('content')
     <p>
-        Thermal Care offers equipment and accessories for every facet of your process cooling needs.
-        Our customers can count on Thermal Care to supply the knowledge and equipment they need to solve specific problems and help them take advantage of energy savings.
+        Tantus Corporation provides a comprehensive range of system accessories to enhance the performance, efficiency, and longevity of industrial cooling systems.
+        Each accessory is tailored to integrate seamlessly with your process requirements—maximizing reliability and energy savings.
     </p>
-
     <div class="row g-4">
-        <div class="col-md-6 d-flex">
-            <img src="/accessories/watertreatment_sm.gif" alt="Water Treatment Systems" class="me-3" width="100" height="85">
-            <div>
-                <h5 class="text-primary">Water Treatment Systems</h5>
-                <p class="mb-1">
-                    Simple solutions for curbing the naturally occurring problems in cooling system water.
-                    Engineered to provide control of scale, suspended solids and microbiological growth in cooling tower water.
-                </p>
-                <a href="http://www.thermalcare.com/accessories/water-treatment-systems.htm" target="_blank" class="text-primary text-decoration-none">
-                    Brochures &amp; More Information &gt;
-                </a>
-            </div>
+        <div class="col-md-4 text-center">
+            <a href="https://www.thermalcare.com/water-treatment-systems/" target="_blank">
+                <img src="/accessories/Water Treatment.webp" class="img-fluid mb-2" alt="Water Treatment Systems" style="max-height: 180px">
+            </a>
+            <h5 class="text-primary">Water Treatment Systems</h5>
+            <p class="small">Essential for cooling towers, these systems help prevent scale, suspended solids, and microbiological growth. The TWC Series delivers all necessary treatment features in a compact, easy-to-operate panel with multilingual display options.</p>
+            <a href="https://www.thermalcare.com/water-treatment-systems/" target="_blank" class="btn btn-link p-0">Brochures &amp; More Information &gt;</a>
         </div>
 
-        <div class="col-md-6 d-flex">
-            <img src="/accessories/filtration2_sm.gif" alt="Filtration Equipment" class="me-3" width="100" height="85">
-            <div>
-                <h5 class="text-primary">Filtration Equipment</h5>
-                <p class="mb-1">
-                    Our filtration equipment includes SF Series screen filters, BF Series bag filters, PS Series sand media filters and TD Series turbo disc filters.
-                </p>
-                <a href="http://www.thermalcare.com/accessories/filtration-equipment.htm" target="_blank" class="text-primary text-decoration-none">
-                    Brochures &amp; More Information &gt;
-                </a>
-            </div>
+        <div class="col-md-4 text-center">
+            <a href="https://www.thermalcare.com/filtration-equipment/" target="_blank">
+                <img src="/accessories/Water Treatment Group.webp" class="img-fluid mb-2" alt="Filtration Equipment" style="max-height: 180px">
+            </a>
+            <h5 class="text-primary">Filtration Equipment</h5>
+            <p class="small">Protect system components from physical debris with a wide range of filtration options—ranging from cartridge and bag filters to high-capacity stainless steel strainer/filters. All options are designed for reliable protection and minimal flow disruption.</p>
+            <a href="https://www.thermalcare.com/filtration-equipment/" target="_blank" class="btn btn-link p-0">Brochures &amp; More Information &gt;</a>
         </div>
 
-        <div class="col-md-6 d-flex">
-            <img src="/accessories/blown-film-cooler_sm.gif" alt="Blown Film Coolers" class="me-3" width="100" height="85">
-            <div>
-                <h5 class="text-primary">Blown Film Coolers</h5>
-                <p class="mb-1">
-                    Available from 200 to 5000 CFM, these units provide uniform cooling for blown film applications.
-                    Includes insulated leaving-air chamber, permanent air filter, drip condensate solenoid valve and four temperature gauges.
-                </p>
-                <a href="http://www.thermalcare.com/accessories/blown-film-coolers.htm" target="_blank" class="text-primary text-decoration-none">
-                    Brochures &amp; More Information &gt;
-                </a>
-            </div>
-        </div>
-
-        <div class="col-md-6 d-flex">
-            <img src="/accessories/heat-exchanger_sm.gif" alt="Heat Exchangers" class="me-3" width="100" height="85">
-            <div>
-                <h5 class="text-primary">Heat Exchangers</h5>
-                <p class="mb-1">
-                    Thermal Care plate and frame heat exchangers can be incorporated into a cooling tower system to isolate contaminated tower water from clean process water while still providing the low cost benefits of a cooling tower system.
-                </p>
-                <a href="http://www.thermalcare.com/accessories/heat-exchangers.htm" target="_blank" class="text-primary text-decoration-none">
-                    Brochures &amp; More Information &gt;
-                </a>
-            </div>
+        <div class="col-md-4 text-center">
+            <a href="https://www.thermalcare.com/heat-exchangers/" target="_blank">
+                <img src="/accessories/PTS_4500.webp" class="img-fluid mb-2" alt="Heat Exchangers" style="max-height: 180px">
+            </a>
+            <h5 class="text-primary">Heat Exchangers</h5>
+            <p class="small">Plate and frame heat exchangers enhance system efficiency, safety, and serviceability. Ideal for reducing long-term operating costs and improving thermal performance in conjunction with chillers, cooling towers, or dry coolers.</p>
+            <a href="https://www.thermalcare.com/heat-exchangers/" target="_blank" class="btn btn-link p-0">Brochures &amp; More Information &gt;</a>
         </div>
     </div>
 @endsection

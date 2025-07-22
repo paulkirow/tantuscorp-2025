@@ -8,7 +8,7 @@
 
 @section('content')
     <div class="row">
-        <div class="col-lg-8">
+        <div class="col-12 col-lg-8">
             <p>
                 Tantus Corporation is committed to using our experience and expertise to find the best solution tailored to your needs—drawing from a wide variety of products in the cooling industry.
             </p>
@@ -39,9 +39,9 @@
                 <a href="{{ url('/contact') }}" class="btn btn-primary">Contact Us to Get Started</a>
             </p>
         </div>
-        <div class="col-lg-4">
-            <img src="{{ asset('logo-old.svg') }}" alt="Logo Old" class="img-fluid rounded pb-5">
-            <img src="{{ asset('logo.svg') }}" alt="Logo" class="img-fluid rounded">
+        <div class="col-12 col-lg-4">
+            <img src="{{ asset('logo-old.svg') }}" alt="Logo Old" class="w-100 img-fluid rounded pb-5" style="max-width: 300px;">
+            <img src="{{ asset('logo.svg') }}" alt="Logo" class="w-100 img-fluid rounded pt-4" style="max-width: 300px;">
         </div>
     </div>
 @endsection

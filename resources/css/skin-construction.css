@@ -1,0 +1,134 @@
+/*!* General *!*/
+/*:root {*/
+/*	--bs-border-radius: 0;*/
+/*	--bs-border-radius2x: 0;*/
+/*	--bs-default: #777;*/
+/*}*/
+/*!* Skin Colors *!*/
+/*:root {*/
+/*	--bs-primary: #E04622;*/
+/*	--bs-primary-100: #cc3e1d;*/
+/*	--bs-primary-200: #c13a1b;*/
+/*	--bs-primary-300: #b63719;*/
+/*	--bs-primary--100: #e35938;*/
+/*	--bs-primary--200: #e56244;*/
+/*	--bs-primary--300: #e66b4f;*/
+/*	--bs-primary-rgba-0: rgba(224, 70, 34, 0);*/
+/*	--bs-primary-rgba-10: rgba(224, 70, 34, 0.1);*/
+/*	--bs-primary-rgba-20: rgba(224, 70, 34, 0.2);*/
+/*	--bs-primary-rgba-30: rgba(224, 70, 34, 0.3);*/
+/*	--bs-primary-rgba-40: rgba(224, 70, 34, 0.4);*/
+/*	--bs-primary-rgba-50: rgba(224, 70, 34, 0.5);*/
+/*	--bs-primary-rgba-60: rgba(224, 70, 34, 0.6);*/
+/*	--bs-primary-rgba-70: rgba(224, 70, 34, 0.7);*/
+/*	--bs-primary-rgba-80: rgba(224, 70, 34, 0.8);*/
+/*	--bs-primary-rgba-90: rgba(224, 70, 34, 0.9);*/
+/*	--bs-secondary: #EEAB26;*/
+/*	--bs-secondary-100: #e8a112;*/
+/*	--bs-secondary-200: #dc9811;*/
+/*	--bs-secondary-300: #d19010;*/
+/*	--bs-secondary--100: #f0b43e;*/
+/*	--bs-secondary--200: #f1b949;*/
+/*	--bs-secondary--300: #f2bd55;*/
+/*	--bs-secondary-rgba-0: rgba(238, 171, 38, 0);*/
+/*	--bs-secondary-rgba-10: rgba(238, 171, 38, 0.1);*/
+/*	--bs-secondary-rgba-20: rgba(238, 171, 38, 0.2);*/
+/*	--bs-secondary-rgba-30: rgba(238, 171, 38, 0.3);*/
+/*	--bs-secondary-rgba-40: rgba(238, 171, 38, 0.4);*/
+/*	--bs-secondary-rgba-50: rgba(238, 171, 38, 0.5);*/
+/*	--bs-secondary-rgba-60: rgba(238, 171, 38, 0.6);*/
+/*	--bs-secondary-rgba-70: rgba(238, 171, 38, 0.7);*/
+/*	--bs-secondary-rgba-80: rgba(238, 171, 38, 0.8);*/
+/*	--bs-secondary-rgba-90: rgba(238, 171, 38, 0.9);*/
+/*	--bs-tertiary: #EAEFF3;*/
+/*	--bs-tertiary-100: #dae3ea;*/
+/*	--bs-tertiary-200: #d2dce5;*/
+/*	--bs-tertiary-300: #cad6e0;*/
+/*	--bs-tertiary--100: #fafbfc;*/
+/*	--bs-tertiary--200: #ffffff;*/
+/*	--bs-tertiary--300: #ffffff;*/
+/*	--bs-tertiary-rgba-0: rgba(234, 239, 243, 0);*/
+/*	--bs-tertiary-rgba-10: rgba(234, 239, 243, 0.1);*/
+/*	--bs-tertiary-rgba-20: rgba(234, 239, 243, 0.2);*/
+/*	--bs-tertiary-rgba-30: rgba(234, 239, 243, 0.3);*/
+/*	--bs-tertiary-rgba-40: rgba(234, 239, 243, 0.4);*/
+/*	--bs-tertiary-rgba-50: rgba(234, 239, 243, 0.5);*/
+/*	--bs-tertiary-rgba-60: rgba(234, 239, 243, 0.6);*/
+/*	--bs-tertiary-rgba-70: rgba(234, 239, 243, 0.7);*/
+/*	--bs-tertiary-rgba-80: rgba(234, 239, 243, 0.8);*/
+/*	--bs-tertiary-rgba-90: rgba(234, 239, 243, 0.9);*/
+/*	--bs-quaternary: #080808;*/
+/*	--bs-quaternary-100: #000000;*/
+/*	--bs-quaternary-200: #000000;*/
+/*	--bs-quaternary-300: #000000;*/
+/*	--bs-quaternary--100: #151515;*/
+/*	--bs-quaternary--200: #1b1b1b;*/
+/*	--bs-quaternary--300: #222222;*/
+/*	--bs-quaternary-rgba-0: rgba(8, 8, 8, 0);*/
+/*	--bs-quaternary-rgba-10: rgba(8, 8, 8, 0.1);*/
+/*	--bs-quaternary-rgba-20: rgba(8, 8, 8, 0.2);*/
+/*	--bs-quaternary-rgba-30: rgba(8, 8, 8, 0.3);*/
+/*	--bs-quaternary-rgba-40: rgba(8, 8, 8, 0.4);*/
+/*	--bs-quaternary-rgba-50: rgba(8, 8, 8, 0.5);*/
+/*	--bs-quaternary-rgba-60: rgba(8, 8, 8, 0.6);*/
+/*	--bs-quaternary-rgba-70: rgba(8, 8, 8, 0.7);*/
+/*	--bs-quaternary-rgba-80: rgba(8, 8, 8, 0.8);*/
+/*	--bs-quaternary-rgba-90: rgba(8, 8, 8, 0.9);*/
+/*	--bs-dark: #212529;*/
+/*	--bs-dark-100: #16181b;*/
+/*	--bs-dark-200: #101214;*/
+/*	--bs-dark-300: #0a0c0d;*/
+/*	--bs-dark--100: #2c3237;*/
+/*	--bs-dark--200: #32383e;*/
+/*	--bs-dark--300: #383f45;*/
+/*	--bs-dark-rgba-0: rgba(33, 37, 41, 0);*/
+/*	--bs-dark-rgba-10: rgba(33, 37, 41, 0.1);*/
+/*	--bs-dark-rgba-20: rgba(33, 37, 41, 0.2);*/
+/*	--bs-dark-rgba-30: rgba(33, 37, 41, 0.3);*/
+/*	--bs-dark-rgba-40: rgba(33, 37, 41, 0.4);*/
+/*	--bs-dark-rgba-50: rgba(33, 37, 41, 0.5);*/
+/*	--bs-dark-rgba-60: rgba(33, 37, 41, 0.6);*/
+/*	--bs-dark-rgba-70: rgba(33, 37, 41, 0.7);*/
+/*	--bs-dark-rgba-80: rgba(33, 37, 41, 0.8);*/
+/*	--bs-dark-rgba-90: rgba(33, 37, 41, 0.9);*/
+/*	--bs-light: #FFF;*/
+/*	--bs-light-100: #f2f2f2;*/
+/*	--bs-light-200: #ececec;*/
+/*	--bs-light-300: #e6e6e6;*/
+/*	--bs-light--100: #ffffff;*/
+/*	--bs-light--200: #ffffff;*/
+/*	--bs-light--300: #ffffff;*/
+/*	--bs-light-rgba-0: rgba(255, 255, 255, 0);*/
+/*	--bs-light-rgba-10: rgba(255, 255, 255, 0.1);*/
+/*	--bs-light-rgba-20: rgba(255, 255, 255, 0.2);*/
+/*	--bs-light-rgba-30: rgba(255, 255, 255, 0.3);*/
+/*	--bs-light-rgba-40: rgba(255, 255, 255, 0.4);*/
+/*	--bs-light-rgba-50: rgba(255, 255, 255, 0.5);*/
+/*	--bs-light-rgba-60: rgba(255, 255, 255, 0.6);*/
+/*	--bs-light-rgba-70: rgba(255, 255, 255, 0.7);*/
+/*	--bs-light-rgba-80: rgba(255, 255, 255, 0.8);*/
+/*	--bs-light-rgba-90: rgba(255, 255, 255, 0.9);*/
+/*}*/
+/*!* Skin Colors - Inverse *!*/
+/*:root {*/
+/*	--bs-primary-inverse: #FFF;*/
+/*	--bs-secondary-inverse: #777;*/
+/*	--bs-tertiary-inverse: #777;*/
+/*	--bs-quaternary-inverse: #FFF;*/
+/*	--bs-dark-inverse: #FFF;*/
+/*	--bs-light-inverse: #777;*/
+/*}*/
+/*!* Grey Colors *!*/
+/*:root {*/
+/*	--bs-grey: #969696;*/
+/*	--bs-grey-100: #f4f4f4;*/
+/*	--bs-grey-200: #eaeaea;*/
+/*	--bs-grey-300: #e5e5e5;*/
+/*	--bs-grey-400: #e0e0e0;*/
+/*	--bs-grey-500: #dbdbdb;*/
+/*	--bs-grey-600: #cecece;*/
+/*	--bs-grey-700: #c1c1c1;*/
+/*	--bs-grey-800: #a8a8a8;*/
+/*	--bs-grey-900: #8e8e8e;*/
+/*	--bs-grey-1000: #757575;*/
+/*}*/

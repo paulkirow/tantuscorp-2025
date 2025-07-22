@@ -14,6 +14,8 @@
     },
     "dependencies": {
         "bootstrap": "^5.3.7",
+        "jquery": "^3.7.1",
+        "jquery-visible": "^1.2.0",
         "sass": "^1.89.2"
     }
 }
