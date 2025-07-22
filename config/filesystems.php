@@ -35,6 +35,10 @@ return [
             'root' => storage_path('app/private'),
         ],
 
+        'pages' => [
+            'driver' => 'local',
+            'root' => 'pages',
+        ],
     ],
 
     /*

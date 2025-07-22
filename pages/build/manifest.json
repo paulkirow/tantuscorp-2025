@@ -1,0 +1,66 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-DjljJMtO.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/css/demo-construction.css": {
+    "file": "assets/demo-construction-WrqgjGJ5.css",
+    "src": "resources/css/demo-construction.css",
+    "isEntry": true
+  },
+  "resources/css/skin-construction.css": {
+    "file": "assets/skin-construction-CdcBIwXJ.css",
+    "src": "resources/css/skin-construction.css",
+    "isEntry": true
+  },
+  "resources/css/theme-elements.css": {
+    "file": "assets/theme-elements-nGn19z_n.css",
+    "src": "resources/css/theme-elements.css",
+    "isEntry": true
+  },
+  "resources/css/theme.css": {
+    "file": "assets/theme-C49vD8th.css",
+    "src": "resources/css/theme.css",
+    "isEntry": true
+  },
+  "resources/css/vendor/fonts/Simple-Line-Icons.eot": {
+    "file": "assets/Simple-Line-Icons-CKKl-dGR.eot",
+    "src": "resources/css/vendor/fonts/Simple-Line-Icons.eot"
+  },
+  "resources/css/vendor/fonts/Simple-Line-Icons.svg": {
+    "file": "assets/Simple-Line-Icons-TZpPYPE3.svg",
+    "src": "resources/css/vendor/fonts/Simple-Line-Icons.svg"
+  },
+  "resources/css/vendor/fonts/Simple-Line-Icons.ttf": {
+    "file": "assets/Simple-Line-Icons-mVuQrdSX.ttf",
+    "src": "resources/css/vendor/fonts/Simple-Line-Icons.ttf"
+  },
+  "resources/css/vendor/fonts/Simple-Line-Icons.woff": {
+    "file": "assets/Simple-Line-Icons-BAgH0-Pt.woff",
+    "src": "resources/css/vendor/fonts/Simple-Line-Icons.woff"
+  },
+  "resources/css/vendor/fonts/Simple-Line-Icons.woff2": {
+    "file": "assets/Simple-Line-Icons-D0KobG-u.woff2",
+    "src": "resources/css/vendor/fonts/Simple-Line-Icons.woff2"
+  },
+  "resources/css/vendor/simple-line-icons.css": {
+    "file": "assets/simple-line-icons-D3LgZj81.css",
+    "src": "resources/css/vendor/simple-line-icons.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-BL6nyLAp.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "css": [
+      "assets/app-W2jXrxOG.css"
+    ]
+  },
+  "resources/sass/app.scss": {
+    "file": "assets/app-W2jXrxOG.css",
+    "src": "resources/sass/app.scss",
+    "isEntry": true
+  }
+}
