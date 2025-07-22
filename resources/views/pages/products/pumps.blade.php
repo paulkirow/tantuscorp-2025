@@ -10,7 +10,7 @@
     <div class="row g-4">
         <div class="col-12">
             <div class="text-center">
-                <img src="{{ asset('pumps/PUMP_RESERVOIR_C.webp') }}" alt="Pump and Reservoir Systems" class="img-fluid float-end ms-3 mb-3" style="max-width: 400px;">
+                <img src="{{ asset('/pumps/PUMP_RESERVOIR_C.webp') }}" alt="Pump and Reservoir Systems" class="img-fluid float-end ms-3 mb-3" style="max-width: 400px;">
             </div>
 
             <p>These pre-engineered systems are built for cooling tower and central chiller applications, delivering robust performance and long-term durability. With a wide range of tank sizes and pump configurations, each unit is designed for optimal flow, minimal pressure drop, and energy efficiency. From solid deck-mounted pumps to corrosion-resistant coatings, every detail reflects a commitment to quality and reliability. Systems are available in fiberglass, polyethylene, stainless steel, or steel, and come with complete engineering support from layout to installation.</p>

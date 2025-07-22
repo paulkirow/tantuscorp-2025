@@ -10,7 +10,7 @@
     <div class="row g-4">
         <div class="col-12 pb-4">
             <div class="text-center">
-                <img src="{{ asset('portables/s416254555551580702_p1482_i4_w500.jpeg') }}" alt="Portable Chillers" class="img-fluid float-end ms-5 mb-3"
+                <img src="{{ asset('/portables/s416254555551580702_p1482_i4_w500.jpeg') }}" alt="Portable Chillers" class="img-fluid float-end ms-5 mb-3"
                      style="max-width: 300px;">
             </div>
             <p>Industrial portable chillers are self-contained units that combine the refrigeration circuit, process pump, reservoir, and electrical controls into a compact, mobile package. These systems are ideal for point-of-use applications where flexibility, efficiency, and precise temperature control are essential.</p>
@@ -21,7 +21,7 @@
         <!-- EQ Series -->
         <div class="col-md-4 text-center">
             <a href="https://www.thermalcare.com/portable-packaged-chillers/1-to-3-ton-portable-chillers" target="_blank">
-                <img src="{{ asset('portables/EQA05.webp') }}" class="img-fluid mb-2" alt="EQ Series">
+                <img src="{{ asset('/portables/EQA05.webp') }}" class="img-fluid mb-2" alt="EQ Series">
             </a>
             <h5 class="text-primary">Accuchiller EQ Series</h5>
             <p class="mb-1"><small>1 to 3 tons</small></p>
@@ -33,7 +33,7 @@
         <!-- NQ Series -->
         <div class="col-md-4 text-center">
             <a href="https://www.thermalcare.com/portable-packaged-chillers/4-to-40-ton-portable-chillers" target="_blank">
-                <img src="{{ asset('portables/NQA10 resized.webp') }}" class="img-fluid mb-2" alt="NQ Series">
+                <img src="{{ asset('/portables/NQA10 resized.webp') }}" class="img-fluid mb-2" alt="NQ Series">
             </a>
             <h5 class="text-primary">Accuchiller NQ Series</h5>
             <p class="mb-1"><small>4 to 40 tons</small></p>
@@ -45,7 +45,7 @@
         <!-- NQV Series -->
         <div class="col-md-4 text-center">
             <a href="https://www.thermalcare.com/portable-packaged-chillers/variable-speed-chillers" target="_blank">
-                <img src="{{ asset('portables/NQA15-30.webp') }}" class="img-fluid mb-2" alt="NQV Series">
+                <img src="{{ asset('/portables/NQA15-30.webp') }}" class="img-fluid mb-2" alt="NQV Series">
             </a>
             <h5 class="text-primary">Accuchiller NQV Series</h5>
             <p class="mb-1"><small>5 to 30 tons</small></p>

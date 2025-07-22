@@ -24,7 +24,7 @@
         <div class="col-md-6 d-flex">
             <div class="me-3">
                 <a href="{{ url('/portables') }}" title="Portable Chillers">
-                    <img src="{{ asset('products/NQA04-05-CPQ.webp') }}" alt="Portable Chillers" class="img-fluid" style="max-width: 80px">
+                    <img src="{{ asset('/products/NQA04-05-CPQ.webp') }}" alt="Portable Chillers" class="img-fluid" style="max-width: 80px">
                 </a>
             </div>
             <div>
@@ -41,7 +41,7 @@
         <div class="col-md-6 d-flex">
             <div class="me-3">
                 <a href="{{ url('/chillers') }}" title="Central Chillers">
-                    <img src="{{ asset('products/TC-Dual Circuit-CPQ.webp') }}" alt="Central Chillers" class="img-fluid" style="max-width: 80px">
+                    <img src="{{ asset('/products/TC-Dual Circuit-CPQ.webp') }}" alt="Central Chillers" class="img-fluid" style="max-width: 80px">
                 </a>
             </div>
             <div>
@@ -58,7 +58,7 @@
         <div class="col-md-6 d-flex">
             <div class="me-3">
                 <a href="{{ url('/pumps_and_reservoirs') }}" title="Pump and Reservoir Systems">
-                    <img src="{{ asset('products/PT-CPQ.webp') }}" alt="Pump and Reservoir Systems" class="img-fluid" style="max-width: 80px">
+                    <img src="{{ asset('/products/PT-CPQ.webp') }}" alt="Pump and Reservoir Systems" class="img-fluid" style="max-width: 80px">
                 </a>
             </div>
             <div>
@@ -75,7 +75,7 @@
         <div class="col-md-6 d-flex">
             <div class="me-3">
                 <a href="{{ url('/tower') }}" title="Cooling Towers">
-                    <img src="{{ asset('products/FC700-CPQ.webp') }}" alt="Cooling Towers" class="img-fluid" style="max-width: 80px">
+                    <img src="{{ asset('/products/FC700-CPQ.webp') }}" alt="Cooling Towers" class="img-fluid" style="max-width: 80px">
                 </a>
             </div>
             <div>
@@ -92,7 +92,7 @@
         <div class="col-md-6 d-flex">
             <div class="me-3">
                 <a href="{{ url('/temperature-control-units') }}" title="Temperature Control Units">
-                    <img src="{{ asset('products/RQT_Premium-Right-CPQ.webp') }}" alt="Temperature Control Units" class="img-fluid" style="max-width: 80px">
+                    <img src="{{ asset('/products/RQT_Premium-Right-CPQ.webp') }}" alt="Temperature Control Units" class="img-fluid" style="max-width: 80px">
                 </a>
             </div>
             <div>
@@ -108,7 +108,7 @@
         <div class="col-md-6 d-flex">
             <div class="me-3">
                 <a href="{{ url('/accessories') }}" title="Accessories">
-                    <img src="{{ asset('products/Water Treatment Group.webp') }}" alt="Accessories" class="img-fluid" style="max-width: 80px">
+                    <img src="{{ asset('/products/Water Treatment Group.webp') }}" alt="Accessories" class="img-fluid" style="max-width: 80px">
                 </a>
             </div>
             <div>

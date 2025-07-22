@@ -9,7 +9,7 @@
         <div class="col-md-10">
             <div class="row">
                 <div class="col-md-4">
-                    <img src="{{ asset('energy-audits/energy19.jpg') }}" alt="Cooling Audit" class="img-fluid mb-3">
+                    <img src="{{ asset('/energy-audits/energy19.jpg') }}" alt="Cooling Audit" class="img-fluid mb-3">
                 </div>
                 <div class="col-md-8">
                     <p><strong>Is your production cooling system costing you too much?</strong></p>
@@ -42,18 +42,18 @@
                 <div class="col-md-6">
                     <h5>Injection Moulding</h5>
                     <p>
-                        <a href="{{ asset('files/InjectionMoldingHeatLoadAnalysis.xls') }}" target="_blank"
+                        <a href="{{ asset('/files/InjectionMoldingHeatLoadAnalysis.xls') }}" target="_blank"
                            class="d-block text-primary">Excel Format</a>
-                        <a href="{{ asset('files/InjectionMoldingHeatLoadAnalysis.pdf') }}" target="_blank"
+                        <a href="{{ asset('/files/InjectionMoldingHeatLoadAnalysis.pdf') }}" target="_blank"
                            class="d-block text-primary">Adobe Format</a>
                     </p>
                 </div>
                 <div class="col-md-6">
                     <h5>Blow Moulding</h5>
                     <p>
-                        <a href="{{ asset('files/Blow Molding Heat Load Analysis.xls') }}" target="_blank"
+                        <a href="{{ asset('/files/Blow Molding Heat Load Analysis.xls') }}" target="_blank"
                            class="d-block text-primary">Excel Format</a>
-                        <a href="{{ asset('files/Blow Molding Heat Load Analysis.pdf') }}" target="_blank"
+                        <a href="{{ asset('/files/Blow Molding Heat Load Analysis.pdf') }}" target="_blank"
                            class="d-block text-primary">Adobe Format</a>
                     </p>
                 </div>

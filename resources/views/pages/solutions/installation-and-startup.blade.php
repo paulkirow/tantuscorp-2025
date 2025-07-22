@@ -144,7 +144,7 @@
             </p>
 
             <div style="text-align: center; margin: 20px 0;">
-                <img src="{{ asset('installation/instal3.gif') }}" width="356" height="367" alt="Mechanical Room Layout Example"
+                <img src="{{ asset('/installation/instal3.gif') }}" width="356" height="367" alt="Mechanical Room Layout Example"
                      style="max-width: 100%; height: auto;">
                 <p style="font-weight: bold; margin-top: 8px;">
                     Example of a Mechanical Room Layout

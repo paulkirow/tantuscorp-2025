@@ -8,7 +8,7 @@
         <div class="col-md-8">
             <div>
                 <div class="d-flex mb-3">
-                    <img src="{{ asset('free-cooling/free_c20.jpg') }}" alt="Free Cooling" class="me-3" style="width: 227px; height: 143px; border: 1px solid #000;">
+                    <img src="{{ asset('/free-cooling/free_c20.jpg') }}" alt="Free Cooling" class="me-3" style="width: 227px; height: 143px; border: 1px solid #000;">
                     <div>
                         <h5 class="fw-bold">What is Free Cooling?</h5>
                         <p class="mb-2">
@@ -37,7 +37,7 @@
                 </p>
 
                 <div class="text-center my-3">
-                    <img src="{{ asset('free-cooling/free_c21.jpg') }}" alt="Cooling capacity chart" width="414" height="288" class="img-fluid">
+                    <img src="{{ asset('/free-cooling/free_c21.jpg') }}" alt="Cooling capacity chart" width="414" height="288" class="img-fluid">
                     <p class="mt-3">
                         This chart demonstrates that as the temperature approach increases (the difference between leaving water temperature and ambient wet bulb temperature), the potential cooling capacity increases. For example, a Cooling Tower that has a temperature approach of 27ºF (58ºF wet bulb) would have double the cooling capacity of the same cooling tower at 7ºF approach (78ºF wet bulb). That is why, given the same cooling water temperature, the cooling tower becomes more efficient in cooler weather.
                     </p>
@@ -46,7 +46,7 @@
                 <hr>
 
                 <div class="text-center my-3">
-                    <img src="{{ asset('free-cooling/free_c22.jpg') }}" alt="Cooling tower efficiency chart" width="410" height="279" class="img-fluid">
+                    <img src="{{ asset('/free-cooling/free_c22.jpg') }}" alt="Cooling tower efficiency chart" width="410" height="279" class="img-fluid">
                     <p class="mt-3">
                         This chart demonstrates that as you increase the Cooling Tower water temperature range, the cooling tower becomes more efficient. Other benefits in increased range is lower water flow, which would decrease the pump HP required resulting in more energy savings.
                     </p>
@@ -55,7 +55,7 @@
                 <hr>
 
                 <div class="text-center my-3">
-                    <img src="{{ asset('free-cooling/free_c23.jpg') }}" alt="Pump curve" width="421" height="299" class="img-fluid">
+                    <img src="{{ asset('/free-cooling/free_c23.jpg') }}" alt="Pump curve" width="421" height="299" class="img-fluid">
                     <p class="mt-3">
                         This pump curve is important when determining free cooling opportunity. If the approach is maintained the same (leaving water temperature vs wet bulb temperature), the Cooling Tower efficiency reduces as you reduce your leaving water temperature when the outdoor wet bulb temperature decreases. For example, operating your Cooling Tower at 60ºF leaving water temperature when the ambient wet bulb temperature is 53ºF, will result in having your Cooling Tower provide only 2/3 of the cooling capacity at 85ºF leaving water temperature at 78ºF wet bulb. You would have to add 50% more cooling capacity to your Cooling Tower in order to provide the same cooling at the lower temperature.
                     </p>
