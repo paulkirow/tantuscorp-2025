@@ -7,6 +7,10 @@
     ],
 ])
 
+@section('title', 'Cooling Towers & Heat Exchangers | Tantus Corporation')
+@section('meta_description', 'Fiberglass cooling towers and high-performance heat exchangers engineered for industrial process temperature control and energy savings.')
+@section('og_image', asset('tower/FC700-CPQ.webp'))
+
 @section('content')
     <p class="pb-5">
         Industrial cooling towers offer a highly efficient, cost-effective solution for process heat removal—especially where water-cooled systems are in use. Tantus supplies fiberglass and hybrid cooling towers engineered for long life, low maintenance, and high thermal performance. Ideal for applications where inlet water temperatures of 85°F or higher are required, these systems support chiller efficiency and reliable year-round operation.

@@ -3,6 +3,9 @@
     'titleCol' => 'col-md-10',
 ])
 
+@section('title', 'Troubleshooting Industrial Cooling Systems | Tantus Corporation')
+@section('meta_description', 'Guidance for diagnosing and resolving issues in industrial chillers, pumps, reservoirs, cooling towers, and temperature control units.')
+
 @section('content')
     <div class="row justify-content-center">
         <div class="col-md-10">
@@ -251,4 +254,3 @@
     </div>
 
 @endsection
-

@@ -4,6 +4,9 @@
     'titleCol' => 'col-md-10',
 ])
 
+@section('title', 'Cooling Load Analysis | Tantus Corporation')
+@section('meta_description', 'Professional cooling load analysis to size industrial chilling systems accurately and optimize energy efficiency and performance.')
+
 @section('content')
     <div class="row justify-content-center">
         <div class="col-md-10">

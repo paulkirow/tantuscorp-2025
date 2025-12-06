@@ -6,6 +6,10 @@
     ],
 ])
 
+@section('title', 'Central Chilling Systems | Tantus Corporation')
+@section('meta_description', 'High-capacity central chillers with scroll, screw, and oil-free Turbocor compressors for scalable industrial process cooling.')
+@section('og_image', asset('chillers/TC_Dual_Circuit.webp'))
+
 @section('content')
     <div class="row g-4">
         <div class="col-12 pb-3">

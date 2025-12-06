@@ -1,7 +1,6 @@
 <?php
 
 return [
-
     /*
      * If true, the exporter will crawl through your site's pages to determine
      * the paths that need to be exported.
@@ -16,20 +15,19 @@ return [
      */
     'paths' => [
         '/',
-        'about',
         'accessories',
         'chillers',
         'contact',
         'cooling-load-analysis',
         'energy-audits',
-        'free_cooling',
-        'installation_and_startup',
+        'free-cooling',
+        'installation-and-startup',
         'portables',
         'products',
-        'pumps_and_reservoirs',
+        'pumps-and-reservoirs',
         'temperature-control-units',
         'tower',
-        'trouble_shooting',
+        'troubleshooting',
     ],
 
     /*
@@ -51,6 +49,7 @@ return [
         '/mix-manifest\.json$/',
         '/\.xls$/',
         '/\.pdf$/',
+        '/construction\/.*/',
     ],
 
     /*
@@ -84,7 +83,8 @@ return [
      * You can skip these by adding a `--skip-{name}` flag to the command.
      */
     'after' => [
+        // Run PurgeCSS only against files in the docs directory
+        'purgecss' => 'npx purgecss --css "docs/**/*.css" --content "docs/**/*.html" "docs/**/*.js" --output docs',
         'strip-urls' => 'php scripts/strip-absolute-urls.php',
     ],
-
 ];

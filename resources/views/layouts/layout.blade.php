@@ -3,6 +3,30 @@
 @section('body')
     @include('components.header')
 
+    @if (isset($breadcrumbs))
+        @push('head-includes')
+            @php
+                $breadcrumbItems = [];
+                foreach ($breadcrumbs as $index => $crumb) {
+                    $breadcrumbItems[] = [
+                        '@type' => 'ListItem',
+                        'position' => $index + 1,
+                        'name' => $crumb['title'],
+                        'item' => $crumb['url'],
+                    ];
+                }
+                $breadcrumbJson = [
+                    '@context' => 'https://schema.org',
+                    '@type' => 'BreadcrumbList',
+                    'itemListElement' => $breadcrumbItems,
+                ];
+            @endphp
+            <script type="application/ld+json">
+                {!! json_encode($breadcrumbJson, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+            </script>
+        @endpush
+    @endif
+
     <section class="page-header page-header-modern bg-color-grey page-header-sm">
         <div class="container">
             <div class="row justify-content-center">

@@ -4,6 +4,9 @@
     'titleCol' => 'col-md-10',
 ])
 
+@section('title', 'Industrial Energy Audits | Tantus Corporation')
+@section('meta_description', 'Comprehensive energy audits for industrial cooling systems to improve efficiency, reduce costs, and optimize performance.')
+
 @section('content')
     <div class="row justify-content-center">
         <div class="col-md-10">
@@ -65,4 +68,3 @@
         </div>
     </div>
 @endsection
-

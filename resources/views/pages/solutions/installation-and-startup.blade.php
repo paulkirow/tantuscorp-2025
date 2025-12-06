@@ -4,6 +4,9 @@
     'titleCol' => 'col-md-8',
 ])
 
+@section('title', 'Installation & Startup Services | Tantus Corporation')
+@section('meta_description', 'End-to-end installation and startup services for industrial cooling systems, including design, layout, and commissioning.')
+
 @section('content')
     <div class="row justify-content-center">
         <div class="col-md-8">

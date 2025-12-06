@@ -6,6 +6,9 @@
     ],
 ])
 
+@section('title', 'Industrial Temperature Control Units (TCUs) | Tantus Corporation')
+@section('meta_description', 'Water and hot oil temperature control units with precise PLC controls, pumps, and heaters for reliable industrial process temperature management.')
+
 @section('content')
     <p>
         Thermal Care temperature control units are engineered for precision, reliability, and versatility. Whether you need water, hot oil, or
@@ -22,7 +25,7 @@
                     heaters. Each unit is equipped with a large operator interface for enhanced control and diagnostics, ensuring dependable
                     operation for mold temperature management.
                 </p>
-                <a href="http://www.thermalcare.com/temperature_controllers/aquatherm-ra-series.htm" target="_blank" class="text-primary text-decoration-none">
+                <a href="http://www.thermalcare.com/aquatherm-rqt-temperature-controller/" target="_blank" class="text-primary text-decoration-none">
                     Brochures &amp; More Information &gt;
                 </a>
             </div>
@@ -37,7 +40,7 @@
                     velocity oil flow and preheating for reduced viscosity. PLC controls offer programmable start/stop, alarms, and setpoint
                     security.
                 </p>
-                <a href="http://www.thermalcare.com/temperature_controllers/oiltherm-series.htm" target="_blank" class="text-primary text-decoration-none">
+                <a href="http://www.thermalcare.com/roh-series-hot-oil-temperature-control-units/" target="_blank" class="text-primary text-decoration-none">
                     Brochures &amp; More Information &gt;
                 </a>
             </div>
@@ -51,7 +54,7 @@
                     The RVU Series prevents downtime by maintaining control even with mold or circuit leaks. Its adjustable vacuum system
                     eliminates air intake while optimizing temperature stability at low flow rates—ideal for sensitive processes.
                 </p>
-                <a href="http://www.thermalcare.com/temperature_controllers/vactherm-series.htm" target="_blank" class="text-primary text-decoration-none">
+                <a href="http://www.thermalcare.com/rvu-series-positive/negative-pressure-temperature-control-units" target="_blank" class="text-primary text-decoration-none">
                     Brochures &amp; More Information &gt;
                 </a>
             </div>
@@ -65,7 +68,7 @@
                     The compact RMC Series offers full performance in a smaller footprint. Like its larger counterpart, it includes premium
                     components and a user-friendly interface, making it ideal for space-limited molding environments.
                 </p>
-                <a href="http://www.thermalcare.com/temperature_controllers/mini-aquatherm-series.htm" target="_blank" class="text-primary text-decoration-none">
+                <a href="https://www.thermalcare.com/rmc-series-water-temperature-control-units" target="_blank" class="text-primary text-decoration-none">
                     Brochures &amp; More Information &gt;
                 </a>
             </div>

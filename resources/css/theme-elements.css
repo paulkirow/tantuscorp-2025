@@ -20418,11 +20418,6 @@ blockquote.blockquote-reverse {
 	border-left: 0px !important;
 }
 
-/* Small */
-small, .small {
-	font-size: 70%;
-}
-
 /* Paragraphs */
 p {
 	color: var(--bs-default);

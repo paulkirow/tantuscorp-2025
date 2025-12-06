@@ -2,9 +2,12 @@
     'title' => 'Pump and Reservoir Systems',
     'breadcrumbs' => [
         ['title' => 'Products', 'url' => url('/products')],
-        ['title' => 'Pumps & Reservoirs', 'url' => url('/pumps_and_reservoirs')],
+        ['title' => 'Pumps & Reservoirs', 'url' => url('/pumps-and-reservoirs')],
     ],
 ])
+
+@section('title', 'Pumping Stations & Reservoirs | Tantus Corporation')
+@section('meta_description', 'Custom pumping stations and reservoirs in steel, stainless, or fiberglass with multiple pump configurations for integrated cooling systems.')
 
 @section('content')
     <div class="row g-4">

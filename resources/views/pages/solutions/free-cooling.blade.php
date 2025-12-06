@@ -3,6 +3,10 @@
     'titleCol' => 'col-md-8',
 ])
 
+@section('title', 'Free Cooling Solutions | Tantus Corporation')
+@section('meta_description', 'Reduce energy costs with free cooling: adiabatic fluid coolers and ambient air systems for industrial process cooling.')
+@section('og_image', asset('free-cooling/free_c20.jpg'))
+
 @section('content')
     <div class="row justify-content-center">
         <div class="col-md-8">

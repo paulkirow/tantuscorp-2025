@@ -6,6 +6,9 @@
     ],
 ])
 
+@section('title', 'Industrial Cooling Products | Tantus Corporation')
+@section('meta_description', 'Explore industrial cooling products: central chillers, portable chillers, pumping stations, reservoirs, cooling towers, and temperature control units.')
+
 @section('content')
     <div class="row gx-4 gy-5">
         <div class="col-12 pb-3">
@@ -57,13 +60,13 @@
         {{-- Pump/Reservoir Systems --}}
         <div class="col-md-6 d-flex">
             <div class="me-3">
-                <a href="{{ url('/pumps_and_reservoirs') }}" title="Pump and Reservoir Systems">
+                <a href="{{ url('/pumps-and-reservoirs') }}" title="Pump and Reservoir Systems">
                     <img src="{{ asset('/products/PT-CPQ.webp') }}" alt="Pump and Reservoir Systems" class="img-fluid" style="max-width: 80px">
                 </a>
             </div>
             <div>
                 <h5>
-                    <a href="{{ url('/pumps_and_reservoirs') }}" class="text-decoration-none text-primary">Pump/Reservoir Systems</a>
+                    <a href="{{ url('/pumps-and-reservoirs') }}" class="text-decoration-none text-primary">Pump/Reservoir Systems</a>
                     <small class="text-muted ms-2">500 – 6000 Gallons</small>
                 </h5>
                 <p class="mb-1 small">Custom-built systems in steel, stainless, or fiberglass. Multiple pump configurations available for seamless integration with chillers and towers.</p>

@@ -6,6 +6,9 @@
     ],
 ])
 
+@section('title', 'Industrial Cooling Accessories | Tantus Corporation')
+@section('meta_description', 'Enhance performance with water treatment systems, filtration units, heat exchangers, and other accessories for industrial cooling.')
+
 @section('content')
     <p>
         Tantus Corporation provides a comprehensive range of system accessories to enhance the performance, efficiency, and longevity of industrial cooling systems.
