@@ -83,8 +83,9 @@ return [
      * You can skip these by adding a `--skip-{name}` flag to the command.
      */
     'after' => [
-        // Run PurgeCSS only against files in the docs directory
-        'purgecss' => 'npx purgecss --css "docs/**/*.css" --content "docs/**/*.html" "docs/**/*.js" --output docs',
+        // Purge CSS in-place within docs/build/assets
+        'purgecss' => 'npx purgecss --css "docs/build/assets/**/*.css" --content "docs/**/*.html" "docs/**/*.js" --output docs/build/assets',
         'strip-urls' => 'php scripts/strip-absolute-urls.php',
     ],
+
 ];
