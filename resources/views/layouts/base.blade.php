@@ -5,5 +5,8 @@
 </head>
 <body>
 @yield('body')
+
+<script src="/theme.js"></script>
+<script src="/theme.init.js"></script>
 </body>
 </html>
