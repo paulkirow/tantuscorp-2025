@@ -11,7 +11,7 @@
     <div class="row justify-content-center">
         <div class="col-md-10">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 d-flex justify-content-center justify-content-md-start">
                     <img src="{{ asset('/energy-audits/energy19.jpg') }}" alt="Cooling Audit" class="img-fluid mb-3">
                 </div>
                 <div class="col-md-8">

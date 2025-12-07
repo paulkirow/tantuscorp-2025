@@ -29,7 +29,7 @@
             <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
                 <h5 class="text-4 text-light mb-3">PRODUCTS</h5>
                 <ul class="list list-unstyled mb-0">
-                    <li class="mb-0"><a href="{{ url('') }}">Product Overview</a></li>
+                    <li class="mb-0"><a href="{{ url('/products') }}">Product Overview</a></li>
                     <li class="mb-0"><a href="{{ url('/portables') }}">Portables</a></li>
                     <li class="mb-0"><a href="{{ url('/chillers') }}">Central Chillers</a></li>
                     <li class="mb-0"><a href="{{ url('/pumps-and-reservoirs') }}">Pumps &amp; Reservoirs</a></li>

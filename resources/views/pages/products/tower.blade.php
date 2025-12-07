@@ -17,8 +17,8 @@
     </p>
 
     <div>
-        <div class="d-flex pb-3">
-            <img src="{{ asset('/tower/FT-CPQ.webp') }}" alt="FT Series Cooling Tower" class="me-3" style="max-height:400px">
+        <div class="d-flex pb-3 flex-column flex-md-row">
+            <img src="{{ asset('/tower/FT-CPQ.webp') }}" alt="FT Series Cooling Tower" class="me-md-3 mb-3 object-fit-contain" style="max-height:400px">
             <div>
                 <h5 class="text-primary mb-1">FT Series – 38 to 120 tons</h5>
                 <p class="mb-1">
@@ -31,8 +31,8 @@
             </div>
         </div>
 
-        <div class="d-flex pb-3">
-            <img src="{{ asset('/tower/FC700-CPQ.webp') }}" alt="FC Series Cooling Tower" class="me-3" style="max-height:400px">
+        <div class="d-flex pb-3 flex-column flex-md-row">
+            <img src="{{ asset('/tower/FC700-CPQ.webp') }}" alt="FC Series Cooling Tower" class="me-md-3 mb-3 object-fit-contain" style="max-height:400px">
             <div>
                 <h5 class="text-primary mb-1">FC Series – 100 to 240 tons</h5>
                 <p class="mb-1">
@@ -45,8 +45,8 @@
             </div>
         </div>
 
-        <div class="d-flex pb-3">
-            <img src="{{ asset('/tower/hfcg-adiabatic.webp') }}" alt="HFCG Adiabatic Fluid Cooler" class="me-3" style="max-height:400px">
+        <div class="d-flex pb-3 flex-column flex-md-row">
+            <img src="{{ asset('/tower/hfcg-adiabatic.webp') }}" alt="HFCG Adiabatic Fluid Cooler" class="me-md-3 mb-3 object-fit-contain" style="max-height:400px">
             <div>
                 <h5 class="text-primary mb-1">HFCG Adiabatic Fluid Coolers – 50 to 1200 tons</h5>
                 <p class="mb-1">

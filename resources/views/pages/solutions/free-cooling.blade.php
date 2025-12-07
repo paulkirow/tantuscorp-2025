@@ -11,8 +11,8 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div>
-                <div class="d-flex mb-3">
-                    <img src="{{ asset('/free-cooling/free_c20.jpg') }}" alt="Free Cooling" class="me-3" style="width: 227px; height: 143px; border: 1px solid #000;">
+                <div class="d-flex mb-3 flex-column flex-md-row">
+                    <img src="{{ asset('/free-cooling/free_c20.jpg') }}" alt="Free Cooling" class="ms-md-0 me-md-3 mx-auto mb-3" style="width: 227px; height: 143px; border: 1px solid #000;">
                     <div>
                         <h5 class="fw-bold">What is Free Cooling?</h5>
                         <p class="mb-2">
