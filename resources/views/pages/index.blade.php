@@ -48,7 +48,7 @@
             bottom: 0;
             overflow: hidden;
             /* Fallback background image if video cannot play */
-            background-image: url('construction/slides/slide-1.jpg');
+            background-image: url('slide-1.jpg');
             background-size: cover;
             background-position: center;
         }
@@ -137,7 +137,7 @@
                         playsinline
                         preload="auto"
                         loop
-                        poster="{{ asset('construction/slides/slide-1.jpg') }}"
+                        poster="{{ asset('slide-1.jpg') }}"
                     >
                         <source src="{{ asset('index.loop.mp4') }}" type="video/mp4">
                         <!-- If the browser can't play the video source, it will show the poster and the wrapper's background image -->
@@ -239,7 +239,7 @@
                     <div class="col-md-6 mb-5">
                         <div class="d-flex">
                             <img class="flex-0-0-auto" width="60" height="60"
-                                 src="construction/icons/snowflake.svg" alt=""/>
+                                 src="snowflake.svg" alt=""/>
                             <div class="ps-4">
                                 <h3 class="text-color-dark font-weight-bold text-transform-none text-5 mb-2">
                                     Central Chilling Systems
@@ -258,7 +258,7 @@
                     <div class="col-md-6 mb-5">
                         <div class="d-flex">
                             <img class="flex-0-0-auto" width="60" height="60"
-                                 src="construction/icons/pushcart.svg" alt=""/>
+                                 src="pushcart.svg" alt=""/>
                             <div class="ps-4">
                                 <h3 class="text-color-dark font-weight-bold text-transform-none text-5 mb-2">
                                     Portable Chillers
@@ -277,7 +277,7 @@
                     <div class="col-md-6 mb-5">
                         <div class="d-flex">
                             <img class="flex-0-0-auto svg-stroke-color-dark" width="70" height="70"
-                                 src="construction/icons/faucet.svg" alt=""/>
+                                 src="faucet.svg" alt=""/>
                             <div class="ps-3">
                                 <h3 class="text-color-dark font-weight-bold text-transform-none text-5 mb-2">
                                     Pumping Stations & Reservoirs
@@ -296,7 +296,7 @@
                     <div class="col-md-6 mb-5 mb-md-0">
                         <div class="d-flex">
                             <img class="flex-0-0-auto" width="60" height="60"
-                                 src="construction/icons/tower.svg" alt=""/>
+                                 src="tower.svg" alt=""/>
                             <div class="ps-4">
                                 <h3 class="text-color-dark font-weight-bold text-transform-none text-5 mb-2">
                                     Heat Exchangers & Cooling Towers

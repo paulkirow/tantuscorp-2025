@@ -47,8 +47,6 @@ return [
     'exclude_file_patterns' => [
         '/\.php$/',
         '/mix-manifest\.json$/',
-        '/\.xls$/',
-        '/\.pdf$/',
         '/construction\/.*/',
     ],
 
@@ -85,7 +83,15 @@ return [
     'after' => [
         // Purge CSS in-place within docs/build/assets
         'purgecss' => 'npx purgecss --css "docs/build/assets/**/*.css" --content "docs/**/*.html" "docs/**/*.js" --output docs/build/assets',
-        'strip-urls' => 'php scripts/strip-absolute-urls.php',
+        // Replace running the PHP script with an artisan command
+        'strip-urls' => 'php artisan export:strip-urls',
+        // Normalize permissions in the exported docs directory
+        'permissions' => 'find docs -type f -exec chmod 644 {} \\; && find docs -type d -exec chmod 755 {} \\;',
+        // Create a zip archive of the docs contents (without nesting the docs folder itself)
+        'zip' => 'cd docs && zip -r ../docs.zip .',
     ],
+
+    // Base URL for replacing absolute URLs in exported files
+    'base_url' => env('EXPORT_URL', 'https://tantuscorp.com'),
 
 ];

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M53.33 46.93A10.67 10.67 0 0 0 48 24H45.33A21.33 21.33 0 1 0 10.67 42.67"/>
+    <line x1="21.33" y1="42.67" x2="21.34" y2="42.67"/>
+    <line x1="21.33" y1="53.33" x2="21.34" y2="53.33"/>
+    <line x1="32" y1="48" x2="32.01" y2="48"/>
+    <line x1="32" y1="58.67" x2="32.01" y2="58.67"/>
+    <line x1="42.67" y1="42.67" x2="42.68" y2="42.67"/>
+    <line x1="42.67" y1="53.33" x2="42.68" y2="53.33"/>
+</svg>

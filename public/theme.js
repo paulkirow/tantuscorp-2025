@@ -1239,44 +1239,6 @@ window.theme.fn = {
 					});
 				}
 
-                // Side Header / Side Header Hamburguer Sidebar (Reverse Dropdown)
-                if($html.hasClass('side-header') || $html.hasClass('side-header-hamburguer-sidebar')) {
-
-					// Side Header Right / Side Header Hamburguer Sidebar Right
-					if($html.hasClass('side-header-right') || $html.hasClass('side-header-hamburguer-sidebar-right')) {
-						if(!$html.hasClass('side-header-right-no-reverse')) {
-							$header.find('.dropdown-submenu').addClass('dropdown-reverse');
-						}
-					}
-
-				} else {
-
-					// Reverse
-					let checkReverseFlag = false;
-					self.checkReverse = () => {
-						if( !checkReverseFlag ) {
-							self.$wrapper.find('.dropdown, .dropdown-submenu').removeClass('dropdown-reverse');
-
-							self.$wrapper.find('.dropdown:not(.manual):not(.dropdown-mega), .dropdown-submenu:not(.manual)').each(function() {
-								if(!$(this).find('.dropdown-menu').visible( false, true, 'horizontal' )  ) {
-									$(this).addClass('dropdown-reverse');
-								}
-							});
-
-							checkReverseFlag = true;
-						}
-					}
-
-					$(window).on('resize', () => {
-						checkReverseFlag = false;
-					});
-
-					$header.on('mouseover', () => {
-						self.checkReverse();
-					});
-
-				}
-
                 // Clone Items
                 if($headerNavMain.hasClass('header-nav-main-clone-items')) {
 
