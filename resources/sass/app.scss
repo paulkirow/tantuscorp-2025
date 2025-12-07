@@ -66,3 +66,62 @@ header.sticky-shrink {
     padding-top: 0.5rem !important;
     padding-bottom: 0.5rem !important;
 }
+
+/* Minimal chevron icons without Font Awesome */
+
+.fas {
+    display: inline-block;
+    vertical-align: middle;
+    /* control via font-size similar to FA */
+    font-size: 1em;
+    line-height: 1;
+    /* make the icon square using em (scales with font-size) */
+    width: 1em;
+    height: 1em;
+    /* color is inherited */
+    color: currentColor;
+}
+
+/* Use a pseudo-element to draw the icon, so the element can still hold text if needed */
+.fas.fa-chevron-down::before,
+.fas.fa-chevron-right::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-color: currentColor;
+}
+
+/* Chevron Down: simple mask path */
+.fas.fa-chevron-down::before {
+    -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="%23000" d="M207.029 381.476L12.686 187.134c-16.981-16.981-16.981-44.55 0-61.531l22.627-22.627c16.981-16.981 44.55-16.981 61.531 0L224 246.941l126.155-143.965c16.981-16.981 44.55-16.981 61.531 0l22.627 22.627c16.981 16.981 16.981 44.55 0 61.531L240.971 381.476c-16.981 16.981-44.55 16.981-61.531 0z"/></svg>');
+    mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="%23000" d="M207.029 381.476L12.686 187.134c-16.981-16.981-16.981-44.55 0-61.531l22.627-22.627c16.981-16.981 44.55-16.981 61.531 0L224 246.941l126.155-143.965c16.981-16.981 44.55-16.981 61.531 0l22.627 22.627c16.981 16.981 16.981 44.55 0 61.531L240.971 381.476c-16.981 16.981-44.55 16.981-61.531 0z"/></svg>');
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-position: center;
+    mask-position: center;
+}
+
+/* Chevron Right: simple mask path */
+.fas.fa-chevron-right::before {
+    -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="%23000" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"/></svg>');
+    mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="%23000" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"/></svg>');
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-position: center;
+    mask-position: center;
+}
+
+/* Support for FA size utility classes if used */
+.fa-lg { font-size: 1.3333em; }
+.fa-sm { font-size: 0.875em; }
+
+/* Optional rotation helpers if needed */
+.fa-rotate-90 { transform: rotate(90deg); }
+.fa-rotate-180 { transform: rotate(180deg); }
+.fa-rotate-270 { transform: rotate(270deg); }
+

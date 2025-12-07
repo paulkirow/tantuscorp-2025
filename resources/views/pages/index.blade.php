@@ -97,15 +97,20 @@
                                 <div
                                     class="header-nav-main header-nav-main-square header-nav-main-text-capitalize header-nav-main-effect-1 header-nav-main-sub-effect-1"
                                 >
-                                    <nav class="collapse px-3-5">
+                                    <nav id="primaryNav" class="collapse px-3-5">
                                         <ul class="nav nav-pills" id="mainNav">
                                             @include('components.header-links')
                                         </ul>
                                     </nav>
                                 </div>
-                                <button class="btn header-btn-collapse-nav" data-bs-toggle="collapse"
-                                        data-bs-target=".header-nav-main nav">
-                                    <i class="fas fa-bars"></i>
+                                <button type="button" class="btn header-btn-collapse-nav" data-bs-toggle="collapse"
+                                        data-bs-target="#primaryNav" aria-controls="primaryNav" aria-label="Toggle navigation">
+                                    <!-- Inline SVG hamburger icon (no external icon font required) -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                        <rect x="3" y="6" width="18" height="2" rx="1"></rect>
+                                        <rect x="3" y="11" width="18" height="2" rx="1"></rect>
+                                        <rect x="3" y="16" width="18" height="2" rx="1"></rect>
+                                    </svg>
                                 </button>
                             </div>
                         </div>
@@ -334,7 +339,7 @@
 </div>
 
 <!-- Vendor -->
-<script src="vendor/plugins.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
 <!-- Theme Base, Components and Settings -->
 <script src="theme.js"></script>

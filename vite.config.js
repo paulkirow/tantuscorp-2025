@@ -6,6 +6,7 @@ export default defineConfig({
         laravel({
             input: [
                 'resources/js/app.js',
+                'resources/js/theme.init.js',
                 'resources/sass/app.scss',
                 'resources/css/theme.css',
                 'resources/css/theme-elements.css',

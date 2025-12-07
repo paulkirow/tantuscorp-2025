@@ -5,12 +5,14 @@
 
 <li class="nav-item {{ $hasDropdown ? 'dropdown' : '' }} {{ $hasMega ? 'dropdown-mega' : '' }}">
     <a
-        href="{{ $item['url'] ?? '#' }}"
+        href="{{ $hasDropdown ? '#' : ($item['url'] ?? '#') }}"
         class="nav-link {{ $hasDropdown ? 'dropdown-toggle' : '' }}"
         @if($hasDropdown)
             id="dropdown-{{ \Illuminate\Support\Str::slug($item['title']) }}"
         role="button"
         data-bs-toggle="dropdown"
+        data-bs-display="static"
+        data-bs-auto-close="outside"
         aria-expanded="false"
         aria-haspopup="true"
         @endif

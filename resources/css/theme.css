@@ -1347,10 +1347,6 @@ html:not(.sticky-header-active) #header.header-transparent-dark-bottom-border-1 
 }
 
 @media (max-width: 991px) {
-    html #header.header-transparent .header-body {
-        overflow: hidden;
-    }
-
     html #header.header-transparent .header-body.bg-dark .header-nav-main:before, html #header.header-transparent .header-body.bg-color-dark .header-nav-main:before {
         background-color: var(--bs-dark);
     }
@@ -3428,7 +3424,7 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 @media (max-width: 991px) {
     #header .header-nav-main {
         position: absolute;
-        background: transparent;
+        background: var(--bs-light);
         width: 100%;
         top: 100%;
         left: 50%;
