@@ -9,11 +9,11 @@
 <meta property="og:title" content="@yield('og_title', trim($__env->yieldContent('title')) ?: 'Tantus Corporation')" />
 <meta property="og:description" content="@yield('og_description', trim($__env->yieldContent('meta_description')) ?: 'Industrial chilling systems and cooling solutions by Tantus Corporation.')" />
 <meta property="og:url" content="{{ url()->current() }}" />
-<meta property="og:image" content="@yield('og_image', asset('thermalcare.jpg'))" />
+<meta property="og:image" content="@yield('og_image', asset('tantuscorp.png'))" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="@yield('twitter_title', trim($__env->yieldContent('og_title')) ?: (trim($__env->yieldContent('title')) ?: 'Tantus Corporation'))" />
 <meta name="twitter:description" content="@yield('twitter_description', trim($__env->yieldContent('og_description')) ?: (trim($__env->yieldContent('meta_description')) ?: 'Industrial chilling systems and cooling solutions by Tantus Corporation.'))" />
-<meta name="twitter:image" content="@yield('twitter_image', trim($__env->yieldContent('og_image')) ?: asset('thermalcare.jpg'))" />
+<meta name="twitter:image" content="@yield('twitter_image', trim($__env->yieldContent('og_image')) ?: asset('tantuscorp.png'))" />
 
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 

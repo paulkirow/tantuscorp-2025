@@ -5,7 +5,7 @@
                 <img
                     alt="Tantus Corporation"
                     height="42"
-                    src="{{ asset('logo.svg') }}"
+                    src="{{ asset('tantuscorp.svg') }}"
                 />
             </a>
         </div>

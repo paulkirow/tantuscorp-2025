@@ -16,7 +16,7 @@
         '@type' => 'Organization',
         'name' => 'Tantus Corporation',
         'url' => 'https://www.tantuscorp.com/',
-        'logo' => asset('logo.svg'),
+        'logo' => asset('tantuscorp.svg'),
         'telephone' => '+1-647-258-9657',
         'contactPoint' => [[
             '@type' => 'ContactPoint',
@@ -76,7 +76,7 @@
             </div>
 
             <div class="text-center">
-                <img src="{{ asset('logo.svg') }}" alt="Logo" class="img-fluid rounded" style="max-width: 300px;">
+                <img src="{{ asset('tantuscorp.svg') }}" alt="Logo" class="img-fluid rounded" style="max-width: 300px;">
                 <img src="{{ asset('logo-old.svg') }}" alt="Logo Old" class="img-fluid rounded mt-4" style="max-width: 300px;">
 
             </div>

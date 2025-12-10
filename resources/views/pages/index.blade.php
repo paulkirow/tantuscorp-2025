@@ -3,36 +3,122 @@
 <head>
     @section('title', 'Industrial Chilling Systems | Tantus Corporation')
     @section('meta_description', 'Industrial chilling systems, central and portable chillers, pumping stations, reservoirs, cooling towers, and temperature control units tailored to your facility.')
-    @section('og_image', asset('thermalcare.jpg'))
+    @section('og_image', asset('tantuscorp.png'))
     @include('layouts.head')
 
     @push('head-includes')
+        <link rel="canonical" href="{{ url()->current() }}">
         @php
             $orgSchema = [
                 '@context' => 'https://schema.org',
                 '@type' => 'Organization',
                 'name' => 'Tantus Corporation',
                 'url' => 'https://www.tantuscorp.com/',
-                'logo' => asset('logo.svg'),
+                'logo' => asset('tantuscorp.svg'),
                 'telephone' => '+1-647-258-9657',
+            ];
+
+            $webSiteSchema = [
+                '@context' => 'https://schema.org',
+                '@type' => 'WebSite',
+                'name' => 'Tantus Corporation',
+                'url' => url('/'),
+                'inLanguage' => app()->getLocale(),
+                'potentialAction' => [
+                    '@type' => 'SearchAction',
+                    'target' => url('/search') . '?q={query}',
+                    'query-input' => 'required name=query',
+                ],
+            ];
+
+            $breadcrumbSchema = [
+                '@context' => 'https://schema.org',
+                '@type' => 'BreadcrumbList',
+                'itemListElement' => [
+                    [
+                        '@type' => 'ListItem',
+                        'position' => 1,
+                        'name' => 'Home',
+                        'item' => url('/'),
+                    ],
+                    [
+                        '@type' => 'ListItem',
+                        'position' => 2,
+                        'name' => 'Industrial Chilling Systems',
+                        'item' => url('/'),
+                    ],
+                ],
+            ];
+
+            $serviceSchema = [
+                '@context' => 'https://schema.org',
+                '@type' => 'Service',
+                'name' => 'Industrial Chillers',
+                'provider' => [
+                    '@type' => 'Organization',
+                    'name' => 'Tantus Corporation',
+                    'url' => url('/'),
+                    'logo' => asset('tantuscorp.svg'),
+                ],
+                'serviceType' => 'Industrial process cooling systems',
+                'areaServed' => [
+                    '@type' => 'Place',
+                    'name' => 'North America',
+                ],
+                'description' => 'Design, supply, installation, and maintenance of central and portable industrial chillers, pumping stations, reservoirs, cooling towers, and temperature control units.',
+                'url' => url('/chillers'),
+            ];
+
+            // FAQPage schema
+            $faqSchema = [
+                '@context' => 'https://schema.org',
+                '@type' => 'FAQPage',
+                'mainEntity' => [
+                    [
+                        '@type' => 'Question',
+                        'name' => 'What is industrial chilling?',
+                        'acceptedAnswer' => [
+                            '@type' => 'Answer',
+                            'text' => 'Industrial chilling is the process of removing heat from industrial equipment or products using chiller systems to maintain precise temperatures for manufacturing or processing.',
+                        ],
+                    ],
+                    [
+                        '@type' => 'Question',
+                        'name' => 'Do I need water-cooled or air-cooled chillers?',
+                        'acceptedAnswer' => [
+                            '@type' => 'Answer',
+                            'text' => 'Choice depends on site conditions, cooling load, efficiency targets and available water — we evaluate your process heat load and recommend the optimal solution.',
+                        ],
+                    ],
+                    [
+                        '@type' => 'Question',
+                        'name' => 'Can Tantus install and service chillers?',
+                        'acceptedAnswer' => [
+                            '@type' => 'Answer',
+                            'text' => 'Yes — Tantus provides system design, installation, water treatment and ongoing maintenance for industrial chilling systems.',
+                        ],
+                    ],
+                ],
             ];
         @endphp
         <script type="application/ld+json">
             {!! json_encode($orgSchema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
         </script>
+        <script type="application/ld+json">
+            {!! json_encode($webSiteSchema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+        </script>
+        <script type="application/ld+json">
+            {!! json_encode($breadcrumbSchema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+        </script>
+        <script type="application/ld+json">
+            {!! json_encode($serviceSchema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+        </script>
+        <script type="application/ld+json">
+            {!! json_encode($faqSchema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+        </script>
     @endpush
     <!-- Vendor CSS -->
     @vite('resources/css/vendor/simple-line-icons.css')
-    {{--    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">--}}
-    {{--    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">--}}
-    {{--    <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css">--}}
-
-    <!-- Theme CSS -->
-    {{--    <link rel="stylesheet" href="css/theme.css">--}}
-    {{--    <link rel="stylesheet" href="css/theme-elements.css">--}}
-    {{--    <link rel="stylesheet" href="css/theme-blog.css">--}}
-    {{--    <link rel="stylesheet" href="css/theme-shop.css">--}}
-
     <!-- Demo CSS -->
     @vite('resources/css/demo-construction.css')
 
@@ -48,7 +134,7 @@
             bottom: 0;
             overflow: hidden;
             /* Fallback background image if video cannot play */
-            background-image: url('slide-1.jpg');
+            background-image: url('{{ asset('slide-1.jpg') }}');
             background-size: cover;
             background-position: center;
         }
@@ -82,11 +168,11 @@
                     <div class="header-column">
                         <div class="header-row">
                             <div class="header-logo custom-header-logo">
-                                <img class="logo" alt="Tantus Corporation" height="42"
-                                     src="{{ asset('logo-light.svg') }}">
+                                <img class="logo" alt="Tantus Corporation logo" height="42"
+                                     src="{{ asset('logo-light.svg') }}" loading="eager">
                                 <a href="/">
-                                    <img class="logo-sticky" alt="Tantus Corporation" height="42"
-                                         src="{{ asset('logo.svg') }}">
+                                    <img class="logo-sticky" alt="Tantus Corporation logo" height="42"
+                                         src="{{ asset('tantuscorp.svg') }}" loading="eager">
                                 </a>
                             </div>
                         </div>
@@ -146,7 +232,7 @@
                 </div>
                 <div class="container position-relative z-index-1 h-100">
                     <div class="row align-items-center h-100 pt-5">
-                        <div class="col-xl-8 position-relative mx-auto mt-5 pt-5">
+                        <div class="col-xl-12 position-relative mx-auto mt-5 pt-5">
                             <h1 class="position-relative text-color-light font-weight-bold custom-big-text-style-1 text-start text-lg-end pt-4 mt-5">
                                 <span
                                     class="position-absolute bottom-100 left-0 transform3dy-p50 w-100 pt-4 ms-0"
@@ -239,7 +325,7 @@
                     <div class="col-md-6 mb-5">
                         <div class="d-flex">
                             <img class="flex-0-0-auto" width="60" height="60"
-                                 src="snowflake.svg" alt=""/>
+                                 src="{{ asset('snowflake.svg') }}" alt="Central chilling systems icon" loading="lazy"/>
                             <div class="ps-4">
                                 <h3 class="text-color-dark font-weight-bold text-transform-none text-5 mb-2">
                                     Central Chilling Systems
@@ -258,7 +344,7 @@
                     <div class="col-md-6 mb-5">
                         <div class="d-flex">
                             <img class="flex-0-0-auto" width="60" height="60"
-                                 src="pushcart.svg" alt=""/>
+                                 src="{{ asset('pushcart.svg') }}" alt="Portable chillers icon" loading="lazy"/>
                             <div class="ps-4">
                                 <h3 class="text-color-dark font-weight-bold text-transform-none text-5 mb-2">
                                     Portable Chillers
@@ -277,7 +363,7 @@
                     <div class="col-md-6 mb-5">
                         <div class="d-flex">
                             <img class="flex-0-0-auto svg-stroke-color-dark" width="70" height="70"
-                                 src="faucet.svg" alt=""/>
+                                 src="{{ asset('faucet.svg') }}" alt="Pumping stations and reservoirs icon" loading="lazy"/>
                             <div class="ps-3">
                                 <h3 class="text-color-dark font-weight-bold text-transform-none text-5 mb-2">
                                     Pumping Stations & Reservoirs
@@ -296,7 +382,7 @@
                     <div class="col-md-6 mb-5 mb-md-0">
                         <div class="d-flex">
                             <img class="flex-0-0-auto" width="60" height="60"
-                                 src="tower.svg" alt=""/>
+                                 src="{{ asset('tower.svg') }}" alt="Heat exchangers and cooling towers icon" loading="lazy"/>
                             <div class="ps-4">
                                 <h3 class="text-color-dark font-weight-bold text-transform-none text-5 mb-2">
                                     Heat Exchangers & Cooling Towers
